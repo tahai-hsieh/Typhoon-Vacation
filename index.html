@@ -9,23 +9,86 @@
             font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
             margin: 40px;
             background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 10px;
         }
+        .main-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .intro-section {
+            font-size: 18px;
+            text-indent: 2em;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .disclaimer-section {
+            border: 1px dashed #000000;
+            padding: 15px;
+            margin-bottom: 30px;
+            font-size: 16px;
+            text-align: justify;
+        }
+        .disclaimer-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .filter-section {
+            border: 1px solid #000000;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            background-color: #fcfcfc;
+        }
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .filter-label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .filter-select {
+            font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
+            font-size: 16px;
+            padding: 4px 8px;
+            border: 1px solid #000000;
+            background-color: #ffffff;
+            min-width: 130px;
+        }
+        .clear-btn {
+            font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
+            font-size: 16px;
+            padding: 4px 12px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            cursor: pointer;
+        }
+        .clear-btn:hover {
+            background-color: #e0e0e0;
+        }
         .header-tools {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 15px;
+            border-top: 1px solid #000000;
+            padding-top: 15px;
         }
         .status-time {
             font-size: 16px;
-            color: #000000;
         }
-        /* 標楷體風格的對齊按鈕 */
         .refresh-btn {
             font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
             font-size: 16px;
@@ -73,12 +136,53 @@
 <body>
 
 <div class="container">
+    <div class="main-title">天然災害停班停課統計表</div>
+
+    <div class="intro-section">
+        歡迎使用「天然災害停班停課統計表」！本網站由學生自行創建。這裡不僅能讓您一鍵查詢今天全台各縣市的停班停課即時狀態，更完整記錄了歷年來因颱風、地震等天然災害帶來的放假數據。
+    </div>
+    <div class="intro-section">
+        為了保障數據的準確性與權威性，本站的所有資料皆同步自行政院人事行政總處全球資訊網（包含「天然災害停止上班及上課情形」與「歷次天然災害停止上班上課訊息」）。無論您是想確認今天的最新消息、回顧當年的放假歷史，還是單純滿足好奇心，我們都為您整理了最可靠、最直觀的資料。
+    </div>
+    <div class="intro-section" style="margin-bottom: 25px;">
+        快點擊上方選單，掌握今日最新動態，或開始探索屬於台灣人的「防災假」歷史數據吧！
+    </div>
+
+    <div class="disclaimer-section">
+        <div class="disclaimer-title">【免責聲明】</div>
+        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔 any 法律責任。出門前請務必再次確認官方最新消息，注意安全！
+    </div>
+
+    <div class="filter-section">
+        <div class="filter-group">
+            <label class="filter-label" for="city-select">縣市：</label>
+            <select class="filter-select" id="city-select" onchange="onCityChange()">
+                <option value="">--請選擇縣市--</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label class="filter-label" for="dist-select">行政區：</label>
+            <select class="filter-select" id="dist-select" onchange="filterTable()" disabled>
+                <option value="">--請選擇行政區--</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label class="filter-label" for="status-select">有無放假：</label>
+            <select class="filter-select" id="status-select" onchange="filterTable()">
+                <option value="">--請選擇狀態--</option>
+                <option value="無">無</option>
+                <option value="停止上班上課">停止上班上課</option>
+            </select>
+        </div>
+        <button class="clear-btn" onclick="clearFilters()">清除篩選</button>
+    </div>
+
     <div class="header-tools">
-        <div class="status-time">最後及時更新時間：2026/06/10 17:34</div>
+        <div class="status-time">最後及時更新時間：2026/06/10 17:50</div>
         <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">🔄 及時檢查更新</button>
     </div>
     
-    <table>
+    <table id="data-table">
         <thead>
             <tr>
                 <th style="width: 25%;">縣市</th>
@@ -88,39 +192,237 @@
             </tr>
         </thead>
         <tbody id="table-body">
-            </tbody>
+<tr>
+                <td class="city-title">台北市</td>
+                <td>文山區</td>
+                <td>32</td>
+                <td>無</td>
+            </tr>
+            <tr>
+                <td class="continued">(續寫)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+</tbody>
     </table>
 </div>
 
 <script>
-    function checkVacationStatus() {
-        const tds = document.querySelectorAll('td');
-        tds.forEach(td => {
-            if (td.innerText.trim() !== '無' && td.innerText.trim() !== '' && td.cellIndex === 3) {
-                td.className = 'vacation-active';
+    let cityDistMap = {};
+
+    function initFilters() {
+        const rows = document.querySelectorAll('#table-body tr');
+        let currentCity = '';
+        cityDistMap = {};
+
+        if (rows.length === 0 || (rows.length === 1 && rows[0].querySelector('.continued'))) {
+            return; // 💥 防禦機制：若表格完全沒有實體行，直接中斷不讓 JavaScript 崩潰
+        }
+
+        rows.forEach(row => {
+            if (row.querySelector('.continued')) return;
+            
+            const cityTd = row.querySelector('.city-title');
+            if (cityTd && cityTd.style.display !== 'none') {
+                currentCity = cityTd.innerText.trim();
             }
+            
+            const tds = row.querySelectorAll('td');
+            if (tds.length < 3) return;
+            
+            const distName = cityTd ? tds[1].innerText.trim() : tds[0].innerText.trim();
+            
+            if (currentCity) {
+                if (!cityDistMap[currentCity]) {
+                    cityDistMap[currentCity] = [];
+                }
+                if (distName && !cityDistMap[currentCity].includes(distName)) {
+                    cityDistMap[currentCity].push(distName);
+                }
+            }
+        });
+
+        const citySelect = document.getElementById('city-select');
+        citySelect.innerHTML = '<option value="">--請選擇縣市--</option>';
+        Object.keys(cityDistMap).forEach(city => {
+            const opt = document.createElement('option');
+            opt.value = city;
+            opt.innerText = city;
+            citySelect.appendChild(opt);
         });
     }
 
-    // 按鈕點擊事件：強迫瀏覽器繞過快取，及時向 GitHub 伺服器抓取最新的網頁內容
+    function onCityChange() {
+        const citySelect = document.getElementById('city-select');
+        const distSelect = document.getElementById('dist-select');
+        const selectedCity = citySelect.value;
+
+        distSelect.innerHTML = '<option value="">--請選擇行政區--</option>';
+        
+        if (selectedCity && cityDistMap[selectedCity]) {
+            distSelect.disabled = false;
+            cityDistMap[selectedCity].forEach(dist => {
+                const opt = document.createElement('option');
+                opt.value = dist;
+                opt.innerText = dist;
+                distSelect.appendChild(opt);
+            });
+        } else {
+            distSelect.disabled = true;
+        }
+
+        filterTable();
+    }
+
+    function filterTable() {
+        const selectedCity = document.getElementById('city-select').value;
+        const selectedDist = document.getElementById('dist-select').value;
+        const selectedStatus = document.getElementById('status-select').value;
+        
+        const rows = document.querySelectorAll('#table-body tr');
+        let currentCity = '';
+
+        rows.forEach(row => {
+            if (row.querySelector('.continued')) {
+                row.style.display = (selectedCity || selectedDist || selectedStatus) ? 'none' : '';
+                return;
+            }
+
+            const cityTd = row.querySelector('.city-title');
+            if (cityTd) {
+                currentCity = cityTd.getAttribute('data-original-city') || cityTd.innerText.trim();
+                cityTd.setAttribute('data-original-city', currentCity);
+            }
+
+            const tds = row.querySelectorAll('td');
+            if (tds.length < 3) return;
+            
+            const distName = cityTd ? tds[1].innerText.trim() : tds[0].innerText.trim();
+            const statusName = cityTd ? tds[3].innerText.trim() : tds[2].innerText.trim();
+
+            const cityMatch = !selectedCity || (currentCity === selectedCity);
+            const distMatch = !selectedDist || (distName === selectedDist);
+            const statusMatch = !selectedStatus || (statusName === selectedStatus);
+
+            if (cityMatch && distMatch && statusMatch) {
+                row.style.display = '';
+                if (cityTd) {
+                    cityTd.style.display = '';
+                    cityTd.rowSpan = 1;
+                    cityTd.innerText = currentCity;
+                } else {
+                    let tempCityTd = row.querySelector('.temp-city-td');
+                    if (!tempCityTd) {
+                        tempCityTd = document.createElement('td');
+                        tempCityTd.className = 'temp-city-td city-title';
+                        row.insertBefore(tempCityTd, row.firstChild);
+                    }
+                    tempCityTd.innerText = currentCity;
+                    tempCityTd.style.display = '';
+                }
+            } else {
+                row.style.display = 'none';
+            }
+        });
+
+        if (!selectedDist && !selectedStatus) {
+            rebuildRowspan(selectedCity);
+        }
+    }
+
+    function rebuildRowspan(targetCity) {
+        const rows = document.querySelectorAll('#table-body tr');
+        let lastCity = '';
+        let matchRows = [];
+
+        document.querySelectorAll('.temp-city-td').forEach(el => el.remove());
+
+        rows.forEach(row => {
+            if (row.style.display === 'none' || row.querySelector('.continued')) return;
+            const cityTd = row.querySelector('.city-title');
+            if (cityTd) {
+                cityTd.style.display = '';
+                const cName = cityTd.getAttribute('data-original-city') || cityTd.innerText.trim();
+                cityTd.innerText = cName;
+                
+                if (lastCity === cName) {
+                    cityTd.style.display = 'none';
+                    matchRows.push(row);
+                } else {
+                    if (matchRows.length > 0) {
+                        const firstRowCityTd = matchRows[0].querySelector('.city-title');
+                        if (firstRowCityTd) firstRowCityTd.rowSpan = matchRows.length;
+                    }
+                    lastCity = cName;
+                    matchRows = [row];
+                }
+            } else {
+                matchRows.push(row);
+            }
+        });
+        if (matchRows.length > 0) {
+            const firstRowCityTd = matchRows[0].querySelector('.city-title');
+            if (firstRowCityTd) firstRowCityTd.rowSpan = matchRows.length;
+        }
+    }
+
+    function clearFilters() {
+        document.getElementById('city-select').value = "";
+        const distSelect = document.getElementById('dist-select');
+        distSelect.innerHTML = '<option value="">--請選擇行政區--</option>';
+        distSelect.disabled = true;
+        document.getElementById('status-select').value = "";
+        filterTable();
+    }
+
+    function checkVacationStatus() {
+        const rows = document.querySelectorAll('#table-body tr');
+        rows.forEach(row => {
+            if (row.querySelector('.continued')) return;
+            const cityTd = row.querySelector('.city-title');
+            const tds = row.find_all ? row.find_all('td') : row.querySelectorAll('td');
+            
+            // 根據有無顯示縣市欄位，動態計算第四欄（今日有無放假）的正確索引值
+            let statusIdx = (cityTd && cityTd.style.display !== 'none') ? 3 : 2;
+            if (tds[statusIdx]) {
+                const txt = tds[statusIdx].innerText.trim();
+                if (txt !== '無' && txt !== '') {
+                    tds[statusIdx].className = 'vacation-active';
+                }
+            }
+        });
+        initFilters();
+        filterTable();
+    }
+
     function refreshData() {
         const btn = document.getElementById('refresh-btn');
         btn.disabled = true;
         btn.innerText = "正在及時檢查...";
 
-        // 透過加上時間戳記（Timestamp），強迫瀏覽器及時重新下載最新的 index.html 數據
         fetch(window.location.href + '?t=' + new Date().getTime())
             .then(response => response.text())
             .then(html => {
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
                 
-                // 及時替換更新時間與表格內容
                 document.querySelector('.status-time').innerHTML = doc.querySelector('.status-time').innerHTML;
                 document.getElementById('table-body').innerHTML = doc.getElementById('table-body').innerHTML;
                 
-                // 重新檢查紅字標示
+                const prevCity = document.getElementById('city-select').value;
+                const prevDist = document.getElementById('dist-select').value;
+                const prevStatus = document.getElementById('status-select').value;
+                
                 checkVacationStatus();
+                
+                if(prevCity) {
+                    document.getElementById('city-select').value = prevCity;
+                    onCityChange();
+                    if(prevDist) document.getElementById('dist-select').value = prevDist;
+                }
+                if(prevStatus) document.getElementById('status-select').value = prevStatus;
+                filterTable();
                 
                 setTimeout(() => {
                     btn.disabled = false;
