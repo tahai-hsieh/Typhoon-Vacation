@@ -2,15 +2,18 @@ name: 全台颱風假及時同步排程
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # 每 30 分鐘自動執行一次後台同步
-  workflow_dispatch: # 允許你隨時進後台手動點擊按鈕更新
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+# 🫵 修正：強制開啟寫入權限，不讓伺服器阻擋機器人回推網頁
+permissions: write-all
 
 jobs:
   run-sync:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v4
+    - uses: actions/checkout@v4 # 升級新版組件
+    - uses: actions/setup-python@v5 # 升級新版組件
       with:
         python-version: '3.10'
     - name: 安裝工具
