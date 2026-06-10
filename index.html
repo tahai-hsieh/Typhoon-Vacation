@@ -13,7 +13,7 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px; /* 寬度稍微放大以容納第五欄 */
             margin: 0 auto;
             padding: 10px;
         }
@@ -150,7 +150,7 @@
 
     <div class="disclaimer-section">
         <div class="disclaimer-title">【免責聲明】</div>
-        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔 any 法律責任。出門前請務必再次確認官方最新消息，注意安全！
+        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔任何法律責任。出門前請務必再次確認官方最新消息，注意安全！
     </div>
 
     <div class="filter-section">
@@ -178,18 +178,18 @@
     </div>
 
     <div class="header-tools">
-        <div class="status-time">最後及時更新時間：2026/06/10 17:50</div>
+        <div class="status-time">最後及時更新時間：2026/06/10 17:54</div>
         <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">🔄 及時檢查更新</button>
     </div>
     
     <table id="data-table">
         <thead>
             <tr>
-                <th style="width: 25%;">縣市</th>
-                <th style="width: 25%;">行政區</th>
-                <th style="width: 25%;">歷年放假次數</th>
-                <th style="width: 25%;">今日有無放假</th>
-            </tr>
+                <th style="width: 20%;">縣市</th>
+                <th style="width: 20%;">行政區</th>
+                <th style="width: 20%;">歷年放假次數</th>
+                <th style="width: 20%;">今日有無放假</th>
+                <th style="width: 20%;">距離上次放假天數</th> </tr>
         </thead>
         <tbody id="table-body">
 <tr>
@@ -197,9 +197,11 @@
                 <td>文山區</td>
                 <td>32</td>
                 <td>無</td>
+                <td>223天</td>
             </tr>
             <tr>
                 <td class="continued">(續寫)</td>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -211,14 +213,18 @@
 <script>
     let cityDistMap = {};
 
+    // 調整欄位索引檢索防禦邏輯
+    function getStatusColIndex(row) {
+        const cityTd = row.querySelector('.city-title');
+        return (cityTd && cityTd.style.display !== 'none') ? 3 : 2;
+    }
+
     function initFilters() {
         const rows = document.querySelectorAll('#table-body tr');
         let currentCity = '';
         cityDistMap = {};
 
-        if (rows.length === 0 || (rows.length === 1 && rows[0].querySelector('.continued'))) {
-            return; // 💥 防禦機制：若表格完全沒有實體行，直接中斷不讓 JavaScript 崩潰
-        }
+        if (rows.length === 0 || (rows.length === 1 && rows[0].querySelector('.continued'))) return;
 
         rows.forEach(row => {
             if (row.querySelector('.continued')) return;
@@ -229,7 +235,7 @@
             }
             
             const tds = row.querySelectorAll('td');
-            if (tds.length < 3) return;
+            if (tds.length < 4) return; 
             
             const distName = cityTd ? tds[1].innerText.trim() : tds[0].innerText.trim();
             
@@ -296,10 +302,11 @@
             }
 
             const tds = row.querySelectorAll('td');
-            if (tds.length < 3) return;
+            if (tds.length < 4) return;
             
             const distName = cityTd ? tds[1].innerText.trim() : tds[0].innerText.trim();
-            const statusName = cityTd ? tds[3].innerText.trim() : tds[2].innerText.trim();
+            const statusIdx = getStatusColIndex(row);
+            const statusName = tds[statusIdx].innerText.trim();
 
             const cityMatch = !selectedCity || (currentCity === selectedCity);
             const distMatch = !selectedDist || (distName === selectedDist);
@@ -380,11 +387,9 @@
         const rows = document.querySelectorAll('#table-body tr');
         rows.forEach(row => {
             if (row.querySelector('.continued')) return;
-            const cityTd = row.querySelector('.city-title');
-            const tds = row.find_all ? row.find_all('td') : row.querySelectorAll('td');
+            const tds = row.querySelectorAll('td');
+            const statusIdx = getStatusColIndex(row);
             
-            // 根據有無顯示縣市欄位，動態計算第四欄（今日有無放假）的正確索引值
-            let statusIdx = (cityTd && cityTd.style.display !== 'none') ? 3 : 2;
             if (tds[statusIdx]) {
                 const txt = tds[statusIdx].innerText.trim();
                 if (txt !== '無' && txt !== '') {
