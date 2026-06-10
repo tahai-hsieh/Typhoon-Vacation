@@ -15,11 +15,34 @@
             margin: 0 auto;
             padding: 10px;
         }
+        .header-tools {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
         .status-time {
-            text-align: right;
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 10px;
+            font-size: 16px;
+            color: #000000;
+        }
+        /* 標楷體風格的對齊按鈕 */
+        .refresh-btn {
+            font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
+            font-size: 16px;
+            padding: 5px 15px;
+            background-color: #ffffff;
+            color: #000000;
+            border: 1px solid #000000;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .refresh-btn:hover {
+            background-color: #f0f0f0;
+        }
+        .refresh-btn:disabled {
+            color: #999999;
+            border-color: #999999;
+            cursor: not-allowed;
         }
         table {
             width: 100%;
@@ -50,7 +73,11 @@
 <body>
 
 <div class="container">
-    <div class="status-time">最後及時更新時間：2026/06/10 17:34</div>
+    <div class="header-tools">
+        <div class="status-time">最後及時更新時間：2026/06/10 17:34</div>
+        <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">🔄 及時檢查更新</button>
+    </div>
+    
     <table>
         <thead>
             <tr>
@@ -66,8 +93,7 @@
 </div>
 
 <script>
-    // 網頁載入時自動將放假的行政區標示為紅色
-    window.onload = function() {
+    function checkVacationStatus() {
         const tds = document.querySelectorAll('td');
         tds.forEach(td => {
             if (td.innerText.trim() !== '無' && td.innerText.trim() !== '' && td.cellIndex === 3) {
@@ -75,6 +101,40 @@
             }
         });
     }
+
+    // 按鈕點擊事件：強迫瀏覽器繞過快取，及時向 GitHub 伺服器抓取最新的網頁內容
+    function refreshData() {
+        const btn = document.getElementById('refresh-btn');
+        btn.disabled = true;
+        btn.innerText = "正在及時檢查...";
+
+        // 透過加上時間戳記（Timestamp），強迫瀏覽器及時重新下載最新的 index.html 數據
+        fetch(window.location.href + '?t=' + new Date().getTime())
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                
+                // 及時替換更新時間與表格內容
+                document.querySelector('.status-time').innerHTML = doc.querySelector('.status-time').innerHTML;
+                document.getElementById('table-body').innerHTML = doc.getElementById('table-body').innerHTML;
+                
+                // 重新檢查紅字標示
+                checkVacationStatus();
+                
+                setTimeout(() => {
+                    btn.disabled = false;
+                    btn.innerText = "🔄 及時檢查更新";
+                }, 1000);
+            })
+            .catch(err => {
+                console.error("及時更新失敗:", err);
+                btn.disabled = false;
+                btn.innerText = "🔄 更新失敗，再試一次";
+            });
+    }
+
+    window.onload = checkVacationStatus;
 </script>
 </body>
 </html>
