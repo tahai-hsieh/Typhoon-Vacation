@@ -1,0 +1,15 @@
+{
+  "name": "typhoon-vacation-backend",
+  "version": "1.0.0",
+  "description": "台灣颱風假即時與歷史資料 API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
