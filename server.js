@@ -21,7 +21,7 @@ const historyData = {
 // 頁面一 API：今日停班停課即時狀態
 app.get('/api/today', async (req, res) => {
     try {
-        const { data } = await axios.get('https://www.dgpa.gov.tw/typh/indextyph.html');
+        const { data } = await axios.get('https://www.dgpa.gov.tw/typh/index.html');
         const $ = cheerio.load(data);
         const todayStatus = {};
 
