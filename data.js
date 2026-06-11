@@ -1,4 +1,4 @@
-window.liveUpdateTime = '2026/06/11 14:51';
+window.liveUpdateTime = '2026/06/11 16:38';
 window.liveVacationData = [
   {
     "city": "基隆市",
@@ -2609,8 +2609,8 @@ window.liveVacationData = [
   },
   {
     "city": "高雄市",
-    "district": "茄萣區",
-    "historyCount": 36,
+    "district": "茄定區",
+    "historyCount": 32,
     "status": "無",
     "note": "-",
     "daysPassed": "588天",
