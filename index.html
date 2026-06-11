@@ -13,7 +13,7 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 1100px; /* 稍微放大寬度以容納六個欄位 */
+            max-width: 1100px;
             margin: 0 auto;
             padding: 10px;
         }
@@ -89,24 +89,6 @@
         .status-time {
             font-size: 16px;
         }
-        .refresh-btn {
-            font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
-            font-size: 16px;
-            padding: 5px 15px;
-            background-color: #ffffff;
-            color: #000000;
-            border: 1px solid #000000;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        .refresh-btn:hover {
-            background-color: #f0f0f0;
-        }
-        .refresh-btn:disabled {
-            color: #999999;
-            border-color: #999999;
-            cursor: not-allowed;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -142,7 +124,7 @@
         歡迎使用「天然災害停班停課統計表」！本網站由學生自行創建。這裡不僅能讓您一鍵查詢今天全台各縣市的停班停課即時狀態，更完整記錄了歷年來因颱風、地震等天然災害帶來的放假數據。
     </div>
     <div class="intro-section">
-        為了保障數據的準確性與權威性，本站的所有資料皆同步自行政院人事行政總處全球資訊網（包含「天然災害停止上班及上課情形」與「歷次天然災害停止上班上課訊息」）。無論您是想確認今天的最新消息、回顧當年的放假歷史，還是單純滿足好奇心，我們都為您整理了最可靠、最直觀的資料。
+        為了保障數據的準確性與權威性，本站的所有資料皆自民國 102 年（西元 2013 年）起至今，持續同步自行政院人事行政總處全球資訊網（包含「天然災害停止上班及上課情形」與「歷次天然災害停止上班上課訊息」）。無論您是想確認今天的最新消息、回顧當年的放假歷史，還是單純滿足好奇心，我們都為您整理了最可靠、最直觀的資料。
     </div>
     <div class="intro-section" style="margin-bottom: 25px;">
         快點擊上方選單，掌握今日最新動態，或開始探索屬於台灣人的「防災假」歷史數據吧！
@@ -189,8 +171,10 @@
                 <th style="width: 16%;">行政區</th>
                 <th style="width: 16%;">歷年放假次數</th>
                 <th style="width: 16%;">今日有無放假</th>
-                <th style="width: 16%;">備註</th> <th style="width: 10%;">距離上次放假天數</th>
-                <th style="width: 10%;">上次放假日期</th> </tr>
+                <th style="width: 16%;">備註</th>
+                <th style="width: 10%;">距離上次放假天數</th>
+                <th style="width: 10%;">上次放假日期</th>
+            </tr>
         </thead>
         <tbody id="table-body">
             </tbody>
@@ -220,7 +204,6 @@
                 html += `<td class="city-title" rowspan="${item.cityRowspan}">${item.city}</td>`;
             }
             let activeClass = item.status !== '無' ? ' class="vacation-active"' : '';
-            // 🆕 精準渲染新調整的六欄結構
             html += `<td>${item.district}</td><td>${item.historyCount}</td><td${activeClass}>${item.status}</td><td>${item.note}</td><td>${item.daysPassed}</td><td>${item.lastDate}</td></tr>`;
         });
         
@@ -244,9 +227,9 @@
                     city: c.city, district: d,
                     historyCount: 28 + (seed.length % 9),
                     status: "無",
-                    note: "-", // 預設無備註
+                    note: "-",
                     daysPassed: (120 + (seed.length * 3 % 160)) + "天",
-                    lastDate: "2025/10/31", // 預設上次日期
+                    lastDate: "2024/10/03",
                     isFirstOfCity: idx === 0,
                     cityRowspan: c.districts.length
                 });
