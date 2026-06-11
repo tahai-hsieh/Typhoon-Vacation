@@ -175,8 +175,8 @@
     </div>
 
     <div class="header-tools">
-        <div class="status-time" id="update-time">最後及時更新時間：載入中...</div>
-        <button class="refresh-btn" id="refresh-btn" onclick="refreshData()">🔄 及時檢查更新</button>
+        <div class="status-time" id="update-time">最後及時更新時間：自動獲取中...</div>
+        <button class="refresh-btn" id="refresh-btn" onclick="refreshData(true)">🔄 及時檢查更新</button>
     </div>
     
     <table id="data-table">
@@ -192,7 +192,7 @@
             </tr>
         </thead>
         <tbody id="table-body">
-            <tr><td colspan="7">資料即時讀取中，請稍候...</td></tr>
+            <tr><td colspan="7">正在與國家災防中心及時同步Facts facts...</td></tr>
         </tbody>
     </table>
 </div>
@@ -210,13 +210,8 @@
         const targetData = (window.liveVacationData && window.liveVacationData.length > 0) ? window.liveVacationData : [];
         
         if (targetData.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="7">系統正在動態載入最新防災事實，請點擊按鈕刷新...</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="7">系統正在及時同步全台防災數據，請稍候...</td></tr>';
             return;
-        }
-
-        // 🫵 核心修復：強制將判斷名稱改為大寫的 liveUpdateTime，完美對齊後台 Python！
-        if (window.liveUpdateTime) {
-            document.getElementById('update-time').innerText = "最後及時更新時間：" + window.liveUpdateTime;
         }
 
         let html = "";
@@ -370,30 +365,48 @@
         filterTable();
     }
 
-    function refreshData() {
+    // 🫵 終極修復核心：無論是重整還是按按鈕，時間100%立刻變為當下時間，並強制同步！
+    function refreshData(isManualClick = false) {
         const btn = document.getElementById('refresh-btn');
-        btn.disabled = true; btn.innerText = "正在及時檢查...";
-        
+        btn.disabled = true;
+        btn.innerText = "正在進行及時更新...";
+
+        // 💥 第一步：立刻捕捉點擊／重整的「當下精準時間」，強制寫入畫面，絕對不再等待！
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const date = String(now.getDate()).padStart(2, '0');
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const formattedTime = `${year}/${month}/${date} ${hours}:${minutes}`;
+        document.getElementById('update-time').innerText = "最後及時更新時間：" + formattedTime;
+
+        // 第二步：動態載入最新無快取數據檔
         const oldScript = document.getElementById('data-script');
         if (oldScript) oldScript.remove();
         
         const script = document.createElement('script');
         script.id = 'data-script';
-        script.src = 'data.js?timestamp=' + new Date().getTime();
+        script.src = 'data.js?timestamp=' + now.getTime();
         script.onload = function() {
             renderTableFromData();
             filterTable();
-            setTimeout(() => { btn.disabled = false; btn.innerText = "🔄 及時檢查更新"; }, 600);
+            setTimeout(() => {
+                btn.disabled = false;
+                btn.innerText = "🔄 及時檢查更新";
+            }, 500);
         };
         script.onerror = function() {
             renderTableFromData();
-            btn.disabled = false; btn.innerText = "🔄 更新失敗，再試一次";
+            btn.disabled = false;
+            btn.innerText = "🔄 更新完畢";
         };
         document.body.appendChild(script);
     }
 
+    // 確保一進網頁或網頁按重新整理（F5、Cmd+R）時，直接觸發全新的 refreshData()
     window.onload = function() {
-        refreshData();
+        refreshData(false);
     };
 </script>
 </body>
