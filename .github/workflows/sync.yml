@@ -2,26 +2,31 @@ name: 全台颱風假及時同步排程
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    - cron: '*/30 * * * *' # 每 30 分鐘自動定時執行一次後台同步
+  workflow_dispatch: # 允許佳杰隨時進後台手動點擊按鈕更新
 
+# 強制開啟寫入權限，讓 Actions 機器人可以順利回推更新後的資料檔
 permissions: write-all
 
 jobs:
   run-sync:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
+    - uses: actions/checkout@v4 # 使用最新穩定版組件
+    - uses: actions/setup-python@v5 # 使用最新穩定版組件
       with:
         python-version: '3.10'
-    - name: 安裝工具
-      run: pip install requests beautifulsoup4
-    - name: 執行及時同步
+        
+    - name: 安裝網頁解析工具
+      run: pip install requests beautifulsoup4 lxml # 補足 XML 解析器，確保 NCDR API 讀取絕不漏失
+      
+    - name: 執行跨來源混合 API 資料庫同步
       run: python .github/scripts/update_all.py
+      
     - name: 提交並回推網站數據
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
+        # 🫵 關鍵修正：同時將 index.html 與新生成的資料核心 data.js 一起打包推回儲存庫！
         git add index.html data.js
-        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 終極解耦同步：全面刷新 NCDR 國家級即時數據庫" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 終極解耦同步：全面刷新台北市API與NCDR國家級即時數據庫" && git push)
