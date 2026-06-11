@@ -1,4 +1,4 @@
-window.liveUpdateTime = '2026/06/11 12:29';
+window.liveUpdateTime = '2026/06/11 14:51';
 window.liveVacationData = [
   {
     "city": "基隆市",
