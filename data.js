@@ -1,4 +1,4 @@
-window.liveUpdateTime = '2026/06/11 09:13';
+window.liveUpdateTime = '2026/06/11 09:18';
 window.liveVacationData = [
   {
     "city": "基隆市",
@@ -857,182 +857,6 @@ window.liveVacationData = [
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
-  },
-  {
-    "city": "苗栗縣",
-    "district": "竹南鎮",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": true,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "頭份市",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "造橋鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "後龍鎮",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "西湖鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "頭屋鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "苗栗市",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "公館鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "銅鑼鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "通霄鎮",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "苑裡鎮",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "三義鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "大湖鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "獅潭鄉",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "卓蘭鎮",
-    "historyCount": 30,
-    "status": "無",
-    "note": "-",
-    "daysPassed": "616天",
-    "lastDate": "2024/10/03",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
-  },
-  {
-    "city": "苗栗縣",
-    "district": "泰安鄉",
-    "historyCount": 30,
-    "status": "停止上班上課",
-    "note": "-",
-    "daysPassed": "0天 (今天)",
-    "lastDate": "2026/06/11",
-    "isFirstOfCity": false,
-    "cityRowspan": 16
   },
   {
     "city": "台中市",
@@ -2598,7 +2422,7 @@ window.liveVacationData = [
   },
   {
     "city": "台南市",
-    "district": "進崎區",
+    "district": "龍崎區",
     "historyCount": 30,
     "status": "無",
     "note": "-",
