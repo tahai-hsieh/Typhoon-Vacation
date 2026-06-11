@@ -1,11 +1,10 @@
 import os
-import re
 import datetime
 import requests
 import random
-from bs4 import BeautifulSoup # 負責解析 NCDR 的 XML 結構
+import json
+from bs4 import BeautifulSoup
 
-# 全台灣由北到南行政區結構
 geo_structure = [
     {"city": "基隆市", "districts": ["萬里區", "金山區", "板橋區", "七堵區", "安樂區", "仁愛區", "信義區", "中正區", "中山區", "暖暖區"]},
     {"city": "台北市", "districts": ["北投區", "士林區", "內湖區", "中山區", "大同區", "松山區", "萬華區", "中正區", "大安區", "信義區", "南港區", "文山區"]},
@@ -28,88 +27,60 @@ geo_structure = [
     {"city": "台東縣", "districts": ["長濱鄉", "海端鄉", "池上鄉", "成功鎮", "關山鎮", "鹿野鄉", "東河鄉", "延平鄉", "卑南鄉", "臺東市", "太麻里鄉", "金峰鄉", "大武鄉", "達仁鄉", "綠島鄉", "蘭嶼鄉"]}
 ]
 
-# 🫵 完美採用你提供的 NCDR 國家災害防救科技中心標準即時 Open Data 資料流
 ncdr_feed_url = "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33"
-
 today_status = {}
-print("📡 正在向國家災害防救科技中心 NCDR 連線要求即時停班課警報...")
 
 try:
     res = requests.get(ncdr_feed_url, timeout=15)
     res.encoding = 'utf-8'
-    
-    # 解析 Atom Feed (XML)
     soup = BeautifulSoup(res.text, 'xml')
     entries = soup.find_all('entry')
-    
     full_alert_text = ""
     for entry in entries:
         summary = entry.find('summary')
         title = entry.find('title')
-        if summary:
-            full_alert_text += summary.text.strip() + "\n"
-        if title:
-            full_alert_text += title.text.strip() + "\n"
-            
-    print(f"✅ NCDR 資料接收成功。目前國家級即時警報內文摘要: \n{full_alert_text[:120]}...")
-
-    # 比對全台地理結構
+        if summary: full_alert_text += summary.text.strip() + "\n"
+        if title: full_alert_text += title.text.strip() + "\n"
+    
     for c in geo_structure:
         if c["city"] in full_alert_text:
             for d in c["districts"]:
                 if d in full_alert_text and ("停止上班" in full_alert_text or "停止上課" in full_alert_text):
                     today_status[f'{c["city"]}_{d}'] = "停止上班上課"
-                    print(f"      🎯 NCDR 連線命中停班課行政區: {c['city']} {d}")
-                    
 except Exception as e:
-    print(f"❌ 讀取 NCDR 國家級警報資料流時發生異常: {e}")
+    print(f"NCDR 連線異常: {e}")
 
-# 2. 重新打包全台大表格
-print("🏗️ 開始組裝全台灣由北到南數據表格...")
-html_rows = []
+# 輸出成乾淨的結構化 JSON 陣列
+output_data = []
 for c in geo_structure:
     city = c["city"]
     districts = c["districts"]
-    
     for idx, d in enumerate(districts):
         key = f"{city}_{d}"
         status = today_status.get(key, "無")
-        
         random.seed(key)
         history_count = random.randint(28, 36)
-        
         if status != "無":
             history_count += 1
             days_passed = "0天 (今天)"
         else:
             days_passed = f"{random.randint(120, 280)}天"
             
-        html_rows.append("<tr>")
-        if idx == 0:
-            html_rows.append(f'<td class="city-title" rowspan="{len(districts)}">{city}</td>')
-        html_rows.append(f'<td>{d}</td>')
-        html_rows.append(f'<td>{history_count}</td>')
-        html_rows.append(f'<td>{status}</td>')
-        html_rows.append(f'<td>{days_passed}</td>')
-        html_rows.append("</tr>")
+        output_data.append({
+            "city": city,
+            "district": d,
+            "historyCount": history_count,
+            "status": status,
+            "daysPassed": days_passed,
+            "isFirstOfCity": idx === 0,
+            "cityRowspan": len(districts)
+        })
 
-html_rows.append('<tr><td class="continued">(續寫)</td><td></td><td></td><td></td><td></td></tr>')
-new_data_content = "\n".join(html_rows)
+now_str = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime('%Y/%m/%d %H:%M')
 
-# 3. 強行改寫 index.html
-try:
-    if os.path.exists("index.html"):
-        with open("index.html", "r", encoding="utf-8") as f:
-            content = f.read()
+# 💥 直接生成純資料 data.js 檔案，永不污染網頁結構！
+with open("data.js", "w", encoding="utf-8") as f:
+    f.write(f"window.liveUpdateTime = '{now_str}';\n")
+    f.write(f"window.liveVacationData = {json.dumps(output_data, ensure_ascii=False, indent=2)};\n")
 
-        content = re.sub(r'.*?', f'\n{new_data_content}\n', content, flags=re.DOTALL)
-        now_str = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime('%Y/%m/%d %H:%M')
-        content = re.sub(r'.*?', f'{now_str}', content)
-
-        with open("index.html", "w", encoding="utf-8") as f:
-            f.write(content)
-        print("🎉 網站 index.html 全台數據經 NCDR 校正改寫完畢！")
-except Exception as e:
-    print(f"❌ 寫入 index.html 失敗: {e}")
-
-print("🏁 腳本全流程執行完畢。")
+print("🎉 獨立數據 data.js 及時寫入成功！")
