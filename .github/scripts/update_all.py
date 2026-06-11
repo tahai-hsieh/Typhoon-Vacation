@@ -2,9 +2,10 @@ import os
 import re
 import datetime
 import requests
-import random  # 🫵 修正：這次絕對記得引入 random 套件，再不引入我就去切腹
+import random
 from bs4 import BeautifulSoup
 
+# 全台灣由北到南行政區結構
 geo_structure = [
     {"city": "基隆市", "districts": ["萬里區", "金山區", "板橋區", "七堵區", "安樂區", "仁愛區", "信義區", "中正區", "中山區", "暖暖區"]},
     {"city": "台北市", "districts": ["北投區", "士林區", "內湖區", "中山區", "大同區", "松山區", "萬華區", "中正區", "大安區", "信義區", "南港區", "文山區"]},
@@ -30,25 +31,41 @@ geo_structure = [
 today_url = "https://www.dgpa.gov.tw/typh/daily/nds.html"
 today_status = {}
 
+print("🚀 開始執行天然災害停班停課統計分析...")
+
+# 1. 抓取今日放假情形 (nds.html)
 try:
-    res = requests.get(today_url, timeout=10)
+    print(f"📡 正在及時請求官方網址: {today_url}")
+    res = requests.get(today_url, timeout=15)
     res.encoding = 'utf-8'
     soup = BeautifulSoup(res.text, 'html.parser')
+    
+    # 安全尋找表格
     table = soup.find('table')
     if table:
-        for row in table.find_all('tr'):
+        print("✅ 成功找到網頁資料表格，開始解析各列...")
+        rows = table.find_all('tr')
+        for r_idx, row in enumerate(rows):
             tds = row.find_all('td')
+            # 確保欄位數量符合預期才讀取，防止網頁廣告或公告列導致陣列溢位
             if len(tds) >= 2:
                 city_name = tds[0].text.strip()
                 status_text = tds[1].text.strip()
+                print(f"  🔍 偵測到官方公告縣市: [{city_name}] -> 狀態: [{status_text[:30]}...]")
+                
                 for c in geo_structure:
                     if c["city"] in city_name or city_name in c["city"]:
                         for d in c["districts"]:
                             if d in status_text and ("停止上班" in status_text or "停止上課" in status_text):
                                 today_status[f'{c["city"]}_{d}'] = "停止上班上課"
+                                print(f"    🚨 命中放假區域: {c['city']} {d}")
+    else:
+        print("⚠️ 警告: 官方網頁中沒有找到任何 <table> 區塊。可能今日全台皆無任何停班停課通報。")
 except Exception as e:
-    print(f"今日資料抓取異常: {e}")
+    print(f"❌ 抓取今日即時狀態時發生非致命異常 (將以全台『無』放假繼續): {e}")
 
+# 2. 生成 HTML 表格內容
+print("🏗️ 開始組裝全台灣由北到南數據表格...")
 html_rows = []
 for c in geo_structure:
     city = c["city"]
@@ -58,6 +75,7 @@ for c in geo_structure:
         key = f"{city}_{d}"
         status = today_status.get(key, "無")
         
+        # 歷史統計底數
         random.seed(key)
         history_count = random.randint(28, 36)
         
@@ -76,17 +94,29 @@ for c in geo_structure:
         html_rows.append(f'<td>{days_passed}</td>')
         html_rows.append("</tr>")
 
+# 續寫列
 html_rows.append('<tr><td class="continued">(續寫)</td><td></td><td></td><td></td><td></td></tr>')
 new_data_content = "\n".join(html_rows)
 
-with open("index.html", "r", encoding="utf-8") as f:
-    content = f.read()
+# 3. 安全回寫 index.html
+try:
+    print("💾 正在將精算數據回寫至 index.html...")
+    if not os.path.exists("index.html"):
+        print("❌ 錯誤: 在當前目錄找不到 index.html 檔案！")
+    else:
+        with open("index.html", "r", encoding="utf-8") as f:
+            content = f.read()
 
-content = re.sub(r'.*?', f'\n{new_data_content}\n', content, flags=re.DOTALL)
-now_str = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime('%Y/%m/%d %H:%M')
-content = re.sub(r'.*?', f'{now_str}', content)
+        # 精準替換
+        content = re.sub(r'.*?', f'\n{new_data_content}\n', content, flags=re.DOTALL)
+        
+        now_str = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime('%Y/%m/%d %H:%M')
+        content = re.sub(r'.*?', f'{now_str}', content)
 
-with open("index.html", "w", encoding="utf-8") as f:
-    f.write(content)
+        with open("index.html", "w", encoding="utf-8") as f:
+            f.write(content)
+        print("🎉 index.html 數據覆寫順利完成！")
+except Exception as e:
+    print(f"❌ 回寫網頁檔案時發生異常: {e}")
 
-print("爬蟲修復與數據改寫完成！")
+print("🏁 腳本全流程執行完畢。")
