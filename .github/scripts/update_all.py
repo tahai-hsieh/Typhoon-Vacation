@@ -3,6 +3,7 @@ import re
 import datetime
 import requests
 import random
+from bs4 import BeautifulSoup # 負責解析 NCDR 的 XML 結構
 
 # 全台灣由北到南行政區結構
 geo_structure = [
@@ -27,44 +28,43 @@ geo_structure = [
     {"city": "台東縣", "districts": ["長濱鄉", "海端鄉", "池上鄉", "成功鎮", "關山鎮", "鹿野鄉", "東河鄉", "延平鄉", "卑南鄉", "臺東市", "太麻里鄉", "金峰鄉", "大武鄉", "達仁鄉", "綠島鄉", "蘭嶼鄉"]}
 ]
 
-# 🫵 關鍵優化：直接串接台灣氣象署與人事行政總處同步的開放資料 API (免授權金鑰公開正式端點)
-api_url = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0033-002"
-# 備用金鑰與公開測試 ID 混合防禦
-params = {"Authorization": "CWA-AA2F3DBA-E363-4458-9E0C-55EF504543E1", "format": "JSON"}
+# 🫵 完美採用你提供的 NCDR 國家災害防救科技中心標準即時 Open Data 資料流
+ncdr_feed_url = "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33"
 
 today_status = {}
-print("🚀 開始連線政府開放資料平臺 API...")
+print("📡 正在向國家災害防救科技中心 NCDR 連線要求即時停班課警報...")
 
 try:
-    response = requests.get(api_url, params=params, timeout=20)
-    if response.status_code == 200:
-        json_data = response.json()
-        print("Data source connected successfully via Government Open API JSON protocol.")
-        
-        # 深入解析政府開放資料標準結構
-        records = json_data.get("records", {}).get("dataset", {}).get("location", [])
-        
-        for loc in records:
-            city_name = loc.get("locationName", "").strip() # 例如 "高雄市"
-            hazard_info = loc.get("hazardConditions", {}).get("hazards", [])
+    res = requests.get(ncdr_feed_url, timeout=15)
+    res.encoding = 'utf-8'
+    
+    # 解析 Atom Feed (XML)
+    soup = BeautifulSoup(res.text, 'xml')
+    entries = soup.find_all('entry')
+    
+    full_alert_text = ""
+    for entry in entries:
+        summary = entry.find('summary')
+        title = entry.find('title')
+        if summary:
+            full_alert_text += summary.text.strip() + "\n"
+        if title:
+            full_alert_text += title.text.strip() + "\n"
             
-            for hazard in hazard_info:
-                info = hazard.get("info", {})
-                sign_text = info.get("significance", "").strip() # 放假說明文字
-                
-                for c in geo_structure:
-                    if c["city"] in city_name or city_name in c["city"]:
-                        for d in c["districts"]:
-                            # 檢查政府結構化欄位內，有沒有提到這個區需要停止上班上課
-                            if d in sign_text and ("停止上班" in sign_text or "停止上課" in sign_text):
-                                today_status[f'{c["city"]}_{d}'] = "停止上班上課"
-                                print(f"    🎯 API 命中放假通報: {c['city']} {d}")
-    else:
-        print(f"⚠️ API 伺服器回應代碼不正常: {response.status_code}，自動啟用降級安全模式。")
-except Exception as e:
-    print(f"❌ 串接中央氣象署 API 發生異常: {e}")
+    print(f"✅ NCDR 資料接收成功。目前國家級即時警報內文摘要: \n{full_alert_text[:120]}...")
 
-# 2. 穩定渲染 HTML 表格結構
+    # 比對全台地理結構
+    for c in geo_structure:
+        if c["city"] in full_alert_text:
+            for d in c["districts"]:
+                if d in full_alert_text and ("停止上班" in full_alert_text or "停止上課" in full_alert_text):
+                    today_status[f'{c["city"]}_{d}'] = "停止上班上課"
+                    print(f"      🎯 NCDR 連線命中停班課行政區: {c['city']} {d}")
+                    
+except Exception as e:
+    print(f"❌ 讀取 NCDR 國家級警報資料流時發生異常: {e}")
+
+# 2. 重新打包全台大表格
 print("🏗️ 開始組裝全台灣由北到南數據表格...")
 html_rows = []
 for c in geo_structure:
@@ -96,7 +96,7 @@ for c in geo_structure:
 html_rows.append('<tr><td class="continued">(續寫)</td><td></td><td></td><td></td><td></td></tr>')
 new_data_content = "\n".join(html_rows)
 
-# 3. 回寫網頁
+# 3. 強行改寫 index.html
 try:
     if os.path.exists("index.html"):
         with open("index.html", "r", encoding="utf-8") as f:
@@ -108,8 +108,8 @@ try:
 
         with open("index.html", "w", encoding="utf-8") as f:
             f.write(content)
-        print("🎉 網站 index.html 全台資料及時同步成功！")
+        print("🎉 網站 index.html 全台數據經 NCDR 校正改寫完畢！")
 except Exception as e:
     print(f"❌ 寫入 index.html 失敗: {e}")
 
-print("🏁 腳本執行完畢。")
+print("🏁 腳本全流程執行完畢。")
