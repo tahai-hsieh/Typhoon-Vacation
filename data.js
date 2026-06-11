@@ -2454,7 +2454,7 @@ window.liveVacationData = [
   },
   {
     "city": "台南市",
-    "district": "左鎮區",
+    "district": "left鎮區",
     "historyCount": 32,
     "status": "無",
     "note": "-",
