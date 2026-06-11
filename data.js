@@ -1,11 +1,13 @@
-window.liveUpdateTime = '2026/06/11 08:36';
+window.liveUpdateTime = '2026/06/11 08:49';
 window.liveVacationData = [
   {
     "city": "基隆市",
     "district": "萬里區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "229天",
+    "lastDate": "2025/10/25",
     "isFirstOfCity": true,
     "cityRowspan": 10
   },
@@ -14,7 +16,9 @@ window.liveVacationData = [
     "district": "金山區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "252天",
+    "lastDate": "2025/10/02",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -23,7 +27,9 @@ window.liveVacationData = [
     "district": "板橋區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "150天",
+    "lastDate": "2026/01/12",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -32,7 +38,9 @@ window.liveVacationData = [
     "district": "七堵區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "136天",
+    "lastDate": "2026/01/26",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -41,7 +49,9 @@ window.liveVacationData = [
     "district": "安樂區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "165天",
+    "lastDate": "2025/12/28",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -50,7 +60,9 @@ window.liveVacationData = [
     "district": "仁愛區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "173天",
+    "lastDate": "2025/12/20",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -59,7 +71,9 @@ window.liveVacationData = [
     "district": "信義區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "157天",
+    "lastDate": "2026/01/05",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -68,7 +82,9 @@ window.liveVacationData = [
     "district": "中正區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "203天",
+    "lastDate": "2025/11/20",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -77,7 +93,9 @@ window.liveVacationData = [
     "district": "中山區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "198天",
+    "lastDate": "2025/11/25",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -86,7 +104,9 @@ window.liveVacationData = [
     "district": "暖暖區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "190天",
+    "lastDate": "2025/12/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
   },
@@ -95,7 +115,9 @@ window.liveVacationData = [
     "district": "北投區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "251天",
+    "lastDate": "2025/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 12
   },
@@ -104,7 +126,9 @@ window.liveVacationData = [
     "district": "士林區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "266天",
+    "lastDate": "2025/09/18",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -113,7 +137,9 @@ window.liveVacationData = [
     "district": "內湖區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "182天",
+    "lastDate": "2025/12/11",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -122,7 +148,9 @@ window.liveVacationData = [
     "district": "中山區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "210天",
+    "lastDate": "2025/11/13",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -131,7 +159,9 @@ window.liveVacationData = [
     "district": "大同區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "212天",
+    "lastDate": "2025/11/11",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -140,7 +170,9 @@ window.liveVacationData = [
     "district": "松山區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "174天",
+    "lastDate": "2025/12/19",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -149,7 +181,9 @@ window.liveVacationData = [
     "district": "萬華區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "158天",
+    "lastDate": "2026/01/04",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -158,7 +192,9 @@ window.liveVacationData = [
     "district": "中正區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "187天",
+    "lastDate": "2025/12/06",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -167,7 +203,9 @@ window.liveVacationData = [
     "district": "大安區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "193天",
+    "lastDate": "2025/11/30",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -176,7 +214,9 @@ window.liveVacationData = [
     "district": "信義區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "189天",
+    "lastDate": "2025/12/04",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -185,7 +225,9 @@ window.liveVacationData = [
     "district": "南港區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "241天",
+    "lastDate": "2025/10/13",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -194,7 +236,9 @@ window.liveVacationData = [
     "district": "文山區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "186天",
+    "lastDate": "2025/12/07",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -203,7 +247,9 @@ window.liveVacationData = [
     "district": "石門區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "137天",
+    "lastDate": "2026/01/25",
     "isFirstOfCity": true,
     "cityRowspan": 27
   },
@@ -212,7 +258,9 @@ window.liveVacationData = [
     "district": "三芝區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "154天",
+    "lastDate": "2026/01/08",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -221,7 +269,9 @@ window.liveVacationData = [
     "district": "淡水區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "140天",
+    "lastDate": "2026/01/22",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -230,7 +280,9 @@ window.liveVacationData = [
     "district": "八里區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "227天",
+    "lastDate": "2025/10/27",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -239,7 +291,9 @@ window.liveVacationData = [
     "district": "林口區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "173天",
+    "lastDate": "2025/12/20",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -248,7 +302,9 @@ window.liveVacationData = [
     "district": "五股區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "151天",
+    "lastDate": "2026/01/11",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -257,7 +313,9 @@ window.liveVacationData = [
     "district": "蘆洲區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "209天",
+    "lastDate": "2025/11/14",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -266,7 +324,9 @@ window.liveVacationData = [
     "district": "三重區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "236天",
+    "lastDate": "2025/10/18",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -275,7 +335,9 @@ window.liveVacationData = [
     "district": "新莊區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "143天",
+    "lastDate": "2026/01/19",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -284,7 +346,9 @@ window.liveVacationData = [
     "district": "泰山區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "280天",
+    "lastDate": "2025/09/04",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -293,7 +357,9 @@ window.liveVacationData = [
     "district": "板橋區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "122天",
+    "lastDate": "2026/02/09",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -302,7 +368,9 @@ window.liveVacationData = [
     "district": "中和區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "234天",
+    "lastDate": "2025/10/20",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -311,7 +379,9 @@ window.liveVacationData = [
     "district": "永和區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "228天",
+    "lastDate": "2025/10/26",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -320,7 +390,9 @@ window.liveVacationData = [
     "district": "土城區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "133天",
+    "lastDate": "2026/01/29",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -329,7 +401,9 @@ window.liveVacationData = [
     "district": "樹林區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "253天",
+    "lastDate": "2025/10/01",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -338,7 +412,9 @@ window.liveVacationData = [
     "district": "鶯歌區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "229天",
+    "lastDate": "2025/10/25",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -347,7 +423,9 @@ window.liveVacationData = [
     "district": "三峽區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "138天",
+    "lastDate": "2026/01/24",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -356,7 +434,9 @@ window.liveVacationData = [
     "district": "新店區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "192天",
+    "lastDate": "2025/12/01",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -365,7 +445,9 @@ window.liveVacationData = [
     "district": "汐止區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "258天",
+    "lastDate": "2025/09/26",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -374,7 +456,9 @@ window.liveVacationData = [
     "district": "深坑區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "145天",
+    "lastDate": "2026/01/17",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -383,7 +467,9 @@ window.liveVacationData = [
     "district": "石碇區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "201天",
+    "lastDate": "2025/11/22",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -392,7 +478,9 @@ window.liveVacationData = [
     "district": "坪林區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "198天",
+    "lastDate": "2025/11/25",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -401,7 +489,9 @@ window.liveVacationData = [
     "district": "烏來區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "208天",
+    "lastDate": "2025/11/15",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -410,7 +500,9 @@ window.liveVacationData = [
     "district": "瑞芳區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "188天",
+    "lastDate": "2025/12/05",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -419,7 +511,9 @@ window.liveVacationData = [
     "district": "雙溪區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "148天",
+    "lastDate": "2026/01/14",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -428,7 +522,9 @@ window.liveVacationData = [
     "district": "貢寮區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "181天",
+    "lastDate": "2025/12/12",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -437,7 +533,9 @@ window.liveVacationData = [
     "district": "平溪區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "166天",
+    "lastDate": "2025/12/27",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -446,7 +544,9 @@ window.liveVacationData = [
     "district": "蘆竹區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "215天",
+    "lastDate": "2025/11/08",
     "isFirstOfCity": true,
     "cityRowspan": 13
   },
@@ -455,7 +555,9 @@ window.liveVacationData = [
     "district": "大園區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "240天",
+    "lastDate": "2025/10/14",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -464,7 +566,9 @@ window.liveVacationData = [
     "district": "觀音區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "154天",
+    "lastDate": "2026/01/08",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -473,7 +577,9 @@ window.liveVacationData = [
     "district": "新屋區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "129天",
+    "lastDate": "2026/02/02",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -482,7 +588,9 @@ window.liveVacationData = [
     "district": "龜山區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "272天",
+    "lastDate": "2025/09/12",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -491,7 +599,9 @@ window.liveVacationData = [
     "district": "桃園區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "148天",
+    "lastDate": "2026/01/14",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -500,7 +610,9 @@ window.liveVacationData = [
     "district": "八德區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "210天",
+    "lastDate": "2025/11/13",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -509,7 +621,9 @@ window.liveVacationData = [
     "district": "中壢區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "221天",
+    "lastDate": "2025/11/02",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -518,7 +632,9 @@ window.liveVacationData = [
     "district": "平鎮區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "263天",
+    "lastDate": "2025/09/21",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -527,7 +643,9 @@ window.liveVacationData = [
     "district": "楊梅區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "129天",
+    "lastDate": "2026/02/02",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -536,7 +654,9 @@ window.liveVacationData = [
     "district": "大溪區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "277天",
+    "lastDate": "2025/09/07",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -545,7 +665,9 @@ window.liveVacationData = [
     "district": "龍潭區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "191天",
+    "lastDate": "2025/12/02",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -554,7 +676,9 @@ window.liveVacationData = [
     "district": "復興區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "263天",
+    "lastDate": "2025/09/21",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -563,7 +687,9 @@ window.liveVacationData = [
     "district": "北區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "249天",
+    "lastDate": "2025/10/05",
     "isFirstOfCity": true,
     "cityRowspan": 3
   },
@@ -572,7 +698,9 @@ window.liveVacationData = [
     "district": "東區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "222天",
+    "lastDate": "2025/11/01",
     "isFirstOfCity": false,
     "cityRowspan": 3
   },
@@ -581,7 +709,9 @@ window.liveVacationData = [
     "district": "香山區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "132天",
+    "lastDate": "2026/01/30",
     "isFirstOfCity": false,
     "cityRowspan": 3
   },
@@ -590,7 +720,9 @@ window.liveVacationData = [
     "district": "新豐鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "224天",
+    "lastDate": "2025/10/30",
     "isFirstOfCity": true,
     "cityRowspan": 13
   },
@@ -599,7 +731,9 @@ window.liveVacationData = [
     "district": "湖口鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "253天",
+    "lastDate": "2025/10/01",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -608,7 +742,9 @@ window.liveVacationData = [
     "district": "竹北市",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "226天",
+    "lastDate": "2025/10/28",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -617,7 +753,9 @@ window.liveVacationData = [
     "district": "新埔鎮",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "200天",
+    "lastDate": "2025/11/23",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -626,7 +764,9 @@ window.liveVacationData = [
     "district": "關西鎮",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "165天",
+    "lastDate": "2025/12/28",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -635,7 +775,9 @@ window.liveVacationData = [
     "district": "芎林鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "219天",
+    "lastDate": "2025/11/04",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -644,7 +786,9 @@ window.liveVacationData = [
     "district": "竹東鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "267天",
+    "lastDate": "2025/09/17",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -653,7 +797,9 @@ window.liveVacationData = [
     "district": "寶山鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "245天",
+    "lastDate": "2025/10/09",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -662,7 +808,9 @@ window.liveVacationData = [
     "district": "橫山鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "184天",
+    "lastDate": "2025/12/09",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -671,7 +819,9 @@ window.liveVacationData = [
     "district": "北埔鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "180天",
+    "lastDate": "2025/12/13",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -680,7 +830,9 @@ window.liveVacationData = [
     "district": "峨眉鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "227天",
+    "lastDate": "2025/10/27",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -689,7 +841,9 @@ window.liveVacationData = [
     "district": "尖石鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "125天",
+    "lastDate": "2026/02/06",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -698,7 +852,9 @@ window.liveVacationData = [
     "district": "五峰鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "225天",
+    "lastDate": "2025/10/29",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -707,7 +863,9 @@ window.liveVacationData = [
     "district": "竹南鎮",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "185天",
+    "lastDate": "2025/12/08",
     "isFirstOfCity": true,
     "cityRowspan": 16
   },
@@ -716,7 +874,9 @@ window.liveVacationData = [
     "district": "頭份市",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "140天",
+    "lastDate": "2026/01/22",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -725,7 +885,9 @@ window.liveVacationData = [
     "district": "造橋鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "196天",
+    "lastDate": "2025/11/27",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -734,7 +896,9 @@ window.liveVacationData = [
     "district": "後龍鎮",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "218天",
+    "lastDate": "2025/11/05",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -743,7 +907,9 @@ window.liveVacationData = [
     "district": "西湖鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "221天",
+    "lastDate": "2025/11/02",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -752,7 +918,9 @@ window.liveVacationData = [
     "district": "頭屋鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "169天",
+    "lastDate": "2025/12/24",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -761,7 +929,9 @@ window.liveVacationData = [
     "district": "苗栗市",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "203天",
+    "lastDate": "2025/11/20",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -770,7 +940,9 @@ window.liveVacationData = [
     "district": "公館鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "131天",
+    "lastDate": "2026/01/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -779,7 +951,9 @@ window.liveVacationData = [
     "district": "銅鑼鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "141天",
+    "lastDate": "2026/01/21",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -788,7 +962,9 @@ window.liveVacationData = [
     "district": "通霄鎮",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "139天",
+    "lastDate": "2026/01/23",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -797,7 +973,9 @@ window.liveVacationData = [
     "district": "苑裡鎮",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "184天",
+    "lastDate": "2025/12/09",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -806,7 +984,9 @@ window.liveVacationData = [
     "district": "三義鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "139天",
+    "lastDate": "2026/01/23",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -815,7 +995,9 @@ window.liveVacationData = [
     "district": "大湖鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "201天",
+    "lastDate": "2025/11/22",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -824,7 +1006,9 @@ window.liveVacationData = [
     "district": "獅潭鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "176天",
+    "lastDate": "2025/12/17",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -833,7 +1017,9 @@ window.liveVacationData = [
     "district": "卓蘭鎮",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "121天",
+    "lastDate": "2026/02/10",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -842,7 +1028,9 @@ window.liveVacationData = [
     "district": "泰安鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "208天",
+    "lastDate": "2025/11/15",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -851,7 +1039,9 @@ window.liveVacationData = [
     "district": "大甲區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "214天",
+    "lastDate": "2025/11/09",
     "isFirstOfCity": true,
     "cityRowspan": 27
   },
@@ -860,7 +1050,9 @@ window.liveVacationData = [
     "district": "大安區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "272天",
+    "lastDate": "2025/09/12",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -869,7 +1061,9 @@ window.liveVacationData = [
     "district": "外埔區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "187天",
+    "lastDate": "2025/12/06",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -878,7 +1072,9 @@ window.liveVacationData = [
     "district": "后里區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "193天",
+    "lastDate": "2025/11/30",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -887,7 +1083,9 @@ window.liveVacationData = [
     "district": "清水區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "231天",
+    "lastDate": "2025/10/23",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -896,7 +1094,9 @@ window.liveVacationData = [
     "district": "神岡區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "169天",
+    "lastDate": "2025/12/24",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -905,7 +1105,9 @@ window.liveVacationData = [
     "district": "豐原區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "216天",
+    "lastDate": "2025/11/07",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -914,7 +1116,9 @@ window.liveVacationData = [
     "district": "石岡區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "187天",
+    "lastDate": "2025/12/06",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -923,7 +1127,9 @@ window.liveVacationData = [
     "district": "東勢區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "128天",
+    "lastDate": "2026/02/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -932,7 +1138,9 @@ window.liveVacationData = [
     "district": "新社區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "182天",
+    "lastDate": "2025/12/11",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -941,7 +1149,9 @@ window.liveVacationData = [
     "district": "沙鹿區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "140天",
+    "lastDate": "2026/01/22",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -950,7 +1160,9 @@ window.liveVacationData = [
     "district": "梧棲區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "259天",
+    "lastDate": "2025/09/25",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -959,7 +1171,9 @@ window.liveVacationData = [
     "district": "龍井區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "120天",
+    "lastDate": "2026/02/11",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -968,7 +1182,9 @@ window.liveVacationData = [
     "district": "大肚區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "158天",
+    "lastDate": "2026/01/04",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -977,7 +1193,9 @@ window.liveVacationData = [
     "district": "烏日區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "239天",
+    "lastDate": "2025/10/15",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -986,7 +1204,9 @@ window.liveVacationData = [
     "district": "西屯區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "134天",
+    "lastDate": "2026/01/28",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -995,7 +1215,9 @@ window.liveVacationData = [
     "district": "北屯區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "128天",
+    "lastDate": "2026/02/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1004,7 +1226,9 @@ window.liveVacationData = [
     "district": "北區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "231天",
+    "lastDate": "2025/10/23",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1013,7 +1237,9 @@ window.liveVacationData = [
     "district": "中區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "262天",
+    "lastDate": "2025/09/22",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1022,7 +1248,9 @@ window.liveVacationData = [
     "district": "東區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "175天",
+    "lastDate": "2025/12/18",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1031,7 +1259,9 @@ window.liveVacationData = [
     "district": "南區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "249天",
+    "lastDate": "2025/10/05",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1040,7 +1270,9 @@ window.liveVacationData = [
     "district": "西區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "225天",
+    "lastDate": "2025/10/29",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1049,7 +1281,9 @@ window.liveVacationData = [
     "district": "南屯區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "246天",
+    "lastDate": "2025/10/08",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1058,7 +1292,9 @@ window.liveVacationData = [
     "district": "太平區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "165天",
+    "lastDate": "2025/12/28",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1067,7 +1303,9 @@ window.liveVacationData = [
     "district": "大里區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "250天",
+    "lastDate": "2025/10/04",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1076,7 +1314,9 @@ window.liveVacationData = [
     "district": "霧峰區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "245天",
+    "lastDate": "2025/10/09",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1085,7 +1325,9 @@ window.liveVacationData = [
     "district": "和平區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "280天",
+    "lastDate": "2025/09/04",
     "isFirstOfCity": false,
     "cityRowspan": 27
   },
@@ -1094,7 +1336,9 @@ window.liveVacationData = [
     "district": "伸港鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "129天",
+    "lastDate": "2026/02/02",
     "isFirstOfCity": true,
     "cityRowspan": 26
   },
@@ -1103,7 +1347,9 @@ window.liveVacationData = [
     "district": "線西鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "234天",
+    "lastDate": "2025/10/20",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1112,7 +1358,9 @@ window.liveVacationData = [
     "district": "和美鎮",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "209天",
+    "lastDate": "2025/11/14",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1121,7 +1369,9 @@ window.liveVacationData = [
     "district": "鹿港鎮",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "239天",
+    "lastDate": "2025/10/15",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1130,7 +1380,9 @@ window.liveVacationData = [
     "district": "福興鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "169天",
+    "lastDate": "2025/12/24",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1139,7 +1391,9 @@ window.liveVacationData = [
     "district": "芳苑鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "128天",
+    "lastDate": "2026/02/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1148,7 +1402,9 @@ window.liveVacationData = [
     "district": "大城鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "252天",
+    "lastDate": "2025/10/02",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1157,7 +1413,9 @@ window.liveVacationData = [
     "district": "彰化市",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "123天",
+    "lastDate": "2026/02/08",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1166,7 +1424,9 @@ window.liveVacationData = [
     "district": "秀水鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "172天",
+    "lastDate": "2025/12/21",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1175,7 +1435,9 @@ window.liveVacationData = [
     "district": "花壇鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "186天",
+    "lastDate": "2025/12/07",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1184,7 +1446,9 @@ window.liveVacationData = [
     "district": "芬園鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "191天",
+    "lastDate": "2025/12/02",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1193,7 +1457,9 @@ window.liveVacationData = [
     "district": "大村鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "256天",
+    "lastDate": "2025/09/28",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1202,7 +1468,9 @@ window.liveVacationData = [
     "district": "員林市",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "152天",
+    "lastDate": "2026/01/10",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1211,7 +1479,9 @@ window.liveVacationData = [
     "district": "溪湖鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "181天",
+    "lastDate": "2025/12/12",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1220,7 +1490,9 @@ window.liveVacationData = [
     "district": "埔鹽鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "134天",
+    "lastDate": "2026/01/28",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1229,7 +1501,9 @@ window.liveVacationData = [
     "district": "埔心鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "210天",
+    "lastDate": "2025/11/13",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1238,7 +1512,9 @@ window.liveVacationData = [
     "district": "永靖鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "165天",
+    "lastDate": "2025/12/28",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1247,7 +1523,9 @@ window.liveVacationData = [
     "district": "社頭鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "273天",
+    "lastDate": "2025/09/11",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1256,7 +1534,9 @@ window.liveVacationData = [
     "district": "田中鎮",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "219天",
+    "lastDate": "2025/11/04",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1265,7 +1545,9 @@ window.liveVacationData = [
     "district": "二水鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "151天",
+    "lastDate": "2026/01/11",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1274,7 +1556,9 @@ window.liveVacationData = [
     "district": "溪州鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "272天",
+    "lastDate": "2025/09/12",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1283,7 +1567,9 @@ window.liveVacationData = [
     "district": "竹塘鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "277天",
+    "lastDate": "2025/09/07",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1292,7 +1578,9 @@ window.liveVacationData = [
     "district": "埤頭鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "274天",
+    "lastDate": "2025/09/10",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1301,7 +1589,9 @@ window.liveVacationData = [
     "district": "北斗鎮",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "276天",
+    "lastDate": "2025/09/08",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1310,7 +1600,9 @@ window.liveVacationData = [
     "district": "田尾鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "183天",
+    "lastDate": "2025/12/10",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1319,7 +1611,9 @@ window.liveVacationData = [
     "district": "二林鎮",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "255天",
+    "lastDate": "2025/09/29",
     "isFirstOfCity": false,
     "cityRowspan": 26
   },
@@ -1328,7 +1622,9 @@ window.liveVacationData = [
     "district": "草屯鎮",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "235天",
+    "lastDate": "2025/10/19",
     "isFirstOfCity": true,
     "cityRowspan": 13
   },
@@ -1337,7 +1633,9 @@ window.liveVacationData = [
     "district": "國姓鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "160天",
+    "lastDate": "2026/01/02",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1346,7 +1644,9 @@ window.liveVacationData = [
     "district": "埔里鎮",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "260天",
+    "lastDate": "2025/09/24",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1355,7 +1655,9 @@ window.liveVacationData = [
     "district": "仁愛鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "214天",
+    "lastDate": "2025/11/09",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1364,7 +1666,9 @@ window.liveVacationData = [
     "district": "南投市",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "276天",
+    "lastDate": "2025/09/08",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1373,7 +1677,9 @@ window.liveVacationData = [
     "district": "中寮鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "147天",
+    "lastDate": "2026/01/15",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1382,7 +1688,9 @@ window.liveVacationData = [
     "district": "魚池鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "200天",
+    "lastDate": "2025/11/23",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1391,7 +1699,9 @@ window.liveVacationData = [
     "district": "名間鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "279天",
+    "lastDate": "2025/09/05",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1400,7 +1710,9 @@ window.liveVacationData = [
     "district": "集集鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "133天",
+    "lastDate": "2026/01/29",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1409,7 +1721,9 @@ window.liveVacationData = [
     "district": "水里鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "133天",
+    "lastDate": "2026/01/29",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1418,7 +1732,9 @@ window.liveVacationData = [
     "district": "信義鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "219天",
+    "lastDate": "2025/11/04",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1427,7 +1743,9 @@ window.liveVacationData = [
     "district": "竹山鎮",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "137天",
+    "lastDate": "2026/01/25",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1436,7 +1754,9 @@ window.liveVacationData = [
     "district": "鹿谷鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "248天",
+    "lastDate": "2025/10/06",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -1445,7 +1765,9 @@ window.liveVacationData = [
     "district": "麥寮鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "185天",
+    "lastDate": "2025/12/08",
     "isFirstOfCity": true,
     "cityRowspan": 20
   },
@@ -1454,7 +1776,9 @@ window.liveVacationData = [
     "district": "崙背鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "261天",
+    "lastDate": "2025/09/23",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1463,7 +1787,9 @@ window.liveVacationData = [
     "district": "二崙鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "233天",
+    "lastDate": "2025/10/21",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1472,7 +1798,9 @@ window.liveVacationData = [
     "district": "西螺鎮",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "265天",
+    "lastDate": "2025/09/19",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1481,7 +1809,9 @@ window.liveVacationData = [
     "district": "莿桐鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "253天",
+    "lastDate": "2025/10/01",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1490,7 +1820,9 @@ window.liveVacationData = [
     "district": "林內鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "280天",
+    "lastDate": "2025/09/04",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1499,7 +1831,9 @@ window.liveVacationData = [
     "district": "臺西鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "206天",
+    "lastDate": "2025/11/17",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1508,7 +1842,9 @@ window.liveVacationData = [
     "district": "東勢鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "273天",
+    "lastDate": "2025/09/11",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1517,7 +1853,9 @@ window.liveVacationData = [
     "district": "褒忠鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "188天",
+    "lastDate": "2025/12/05",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1526,7 +1864,9 @@ window.liveVacationData = [
     "district": "土庫鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "259天",
+    "lastDate": "2025/09/25",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1535,7 +1875,9 @@ window.liveVacationData = [
     "district": "虎尾鎮",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "261天",
+    "lastDate": "2025/09/23",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1544,7 +1886,9 @@ window.liveVacationData = [
     "district": "斗六市",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "254天",
+    "lastDate": "2025/09/30",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1553,7 +1897,9 @@ window.liveVacationData = [
     "district": "斗南鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "259天",
+    "lastDate": "2025/09/25",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1562,7 +1908,9 @@ window.liveVacationData = [
     "district": "古坑鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "231天",
+    "lastDate": "2025/10/23",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1571,7 +1919,9 @@ window.liveVacationData = [
     "district": "大埤鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "268天",
+    "lastDate": "2025/09/16",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1580,7 +1930,9 @@ window.liveVacationData = [
     "district": "元長鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "186天",
+    "lastDate": "2025/12/07",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1589,7 +1941,9 @@ window.liveVacationData = [
     "district": "四湖鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "251天",
+    "lastDate": "2025/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1598,7 +1952,9 @@ window.liveVacationData = [
     "district": "口湖鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "241天",
+    "lastDate": "2025/10/13",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1607,7 +1963,9 @@ window.liveVacationData = [
     "district": "水林鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "252天",
+    "lastDate": "2025/10/02",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1616,7 +1974,9 @@ window.liveVacationData = [
     "district": "北港鎮",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "192天",
+    "lastDate": "2025/12/01",
     "isFirstOfCity": false,
     "cityRowspan": 20
   },
@@ -1625,7 +1985,9 @@ window.liveVacationData = [
     "district": "西區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "232天",
+    "lastDate": "2025/10/22",
     "isFirstOfCity": true,
     "cityRowspan": 2
   },
@@ -1634,7 +1996,9 @@ window.liveVacationData = [
     "district": "東區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "192天",
+    "lastDate": "2025/12/01",
     "isFirstOfCity": false,
     "cityRowspan": 2
   },
@@ -1643,7 +2007,9 @@ window.liveVacationData = [
     "district": "溪口鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "226天",
+    "lastDate": "2025/10/28",
     "isFirstOfCity": true,
     "cityRowspan": 18
   },
@@ -1652,7 +2018,9 @@ window.liveVacationData = [
     "district": "大林鎮",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "147天",
+    "lastDate": "2026/01/15",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1661,7 +2029,9 @@ window.liveVacationData = [
     "district": "民雄鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "192天",
+    "lastDate": "2025/12/01",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1670,7 +2040,9 @@ window.liveVacationData = [
     "district": "梅山鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "127天",
+    "lastDate": "2026/02/04",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1679,7 +2051,9 @@ window.liveVacationData = [
     "district": "竹崎鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "197天",
+    "lastDate": "2025/11/26",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1688,7 +2062,9 @@ window.liveVacationData = [
     "district": "新港鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "205天",
+    "lastDate": "2025/11/18",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1697,7 +2073,9 @@ window.liveVacationData = [
     "district": "六腳鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "196天",
+    "lastDate": "2025/11/27",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1706,7 +2084,9 @@ window.liveVacationData = [
     "district": "東石鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "250天",
+    "lastDate": "2025/10/04",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1715,7 +2095,9 @@ window.liveVacationData = [
     "district": "朴子市",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "237天",
+    "lastDate": "2025/10/17",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1724,7 +2106,9 @@ window.liveVacationData = [
     "district": "太保市",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "131天",
+    "lastDate": "2026/01/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1733,7 +2117,9 @@ window.liveVacationData = [
     "district": "番路鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "218天",
+    "lastDate": "2025/11/05",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1742,7 +2128,9 @@ window.liveVacationData = [
     "district": "阿里山鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "269天",
+    "lastDate": "2025/09/15",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1751,7 +2139,9 @@ window.liveVacationData = [
     "district": "布袋鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "278天",
+    "lastDate": "2025/09/06",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1760,7 +2150,9 @@ window.liveVacationData = [
     "district": "義竹鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "237天",
+    "lastDate": "2025/10/17",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1769,7 +2161,9 @@ window.liveVacationData = [
     "district": "鹿草鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "185天",
+    "lastDate": "2025/12/08",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1778,7 +2172,9 @@ window.liveVacationData = [
     "district": "水上鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "280天",
+    "lastDate": "2025/09/04",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1787,7 +2183,9 @@ window.liveVacationData = [
     "district": "中埔鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "159天",
+    "lastDate": "2026/01/03",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1796,7 +2194,9 @@ window.liveVacationData = [
     "district": "大埔鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "232天",
+    "lastDate": "2025/10/22",
     "isFirstOfCity": false,
     "cityRowspan": 18
   },
@@ -1805,7 +2205,9 @@ window.liveVacationData = [
     "district": "白河區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "278天",
+    "lastDate": "2025/09/06",
     "isFirstOfCity": true,
     "cityRowspan": 37
   },
@@ -1814,7 +2216,9 @@ window.liveVacationData = [
     "district": "後壁區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "173天",
+    "lastDate": "2025/12/20",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1823,7 +2227,9 @@ window.liveVacationData = [
     "district": "鹽水區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "169天",
+    "lastDate": "2025/12/24",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1832,7 +2238,9 @@ window.liveVacationData = [
     "district": "新營區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "235天",
+    "lastDate": "2025/10/19",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1841,7 +2249,9 @@ window.liveVacationData = [
     "district": "柳營區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "234天",
+    "lastDate": "2025/10/20",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1850,7 +2260,9 @@ window.liveVacationData = [
     "district": "東山區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "167天",
+    "lastDate": "2025/12/26",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1859,7 +2271,9 @@ window.liveVacationData = [
     "district": "北門區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "244天",
+    "lastDate": "2025/10/10",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1868,7 +2282,9 @@ window.liveVacationData = [
     "district": "學甲區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "162天",
+    "lastDate": "2025/12/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1877,7 +2293,9 @@ window.liveVacationData = [
     "district": "下營區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "235天",
+    "lastDate": "2025/10/19",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1886,7 +2304,9 @@ window.liveVacationData = [
     "district": "六甲區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "184天",
+    "lastDate": "2025/12/09",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1895,7 +2315,9 @@ window.liveVacationData = [
     "district": "官田區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "274天",
+    "lastDate": "2025/09/10",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1904,16 +2326,20 @@ window.liveVacationData = [
     "district": "大內區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "123天",
+    "lastDate": "2026/02/08",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
   {
     "city": "台南市",
-    "district": "將節區",
+    "district": "將軍區",
     "historyCount": 32,
     "status": "無",
-    "daysPassed": "126天",
+    "note": "-",
+    "daysPassed": "213天",
+    "lastDate": "2025/11/10",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1922,7 +2348,9 @@ window.liveVacationData = [
     "district": "佳里區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "196天",
+    "lastDate": "2025/11/27",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1931,7 +2359,9 @@ window.liveVacationData = [
     "district": "麻豆區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "167天",
+    "lastDate": "2025/12/26",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1940,7 +2370,9 @@ window.liveVacationData = [
     "district": "西港區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "278天",
+    "lastDate": "2025/09/06",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1949,7 +2381,9 @@ window.liveVacationData = [
     "district": "七股區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "167天",
+    "lastDate": "2025/12/26",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1958,7 +2392,9 @@ window.liveVacationData = [
     "district": "安定區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "258天",
+    "lastDate": "2025/09/26",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1967,7 +2403,9 @@ window.liveVacationData = [
     "district": "善化區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "250天",
+    "lastDate": "2025/10/04",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1976,7 +2414,9 @@ window.liveVacationData = [
     "district": "山上區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "204天",
+    "lastDate": "2025/11/19",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1985,7 +2425,9 @@ window.liveVacationData = [
     "district": "玉井區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "173天",
+    "lastDate": "2025/12/20",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -1994,7 +2436,9 @@ window.liveVacationData = [
     "district": "楠西區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "175天",
+    "lastDate": "2025/12/18",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2003,7 +2447,9 @@ window.liveVacationData = [
     "district": "南化區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "210天",
+    "lastDate": "2025/11/13",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2012,7 +2458,9 @@ window.liveVacationData = [
     "district": "左鎮區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "179天",
+    "lastDate": "2025/12/14",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2021,7 +2469,9 @@ window.liveVacationData = [
     "district": "新化區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "181天",
+    "lastDate": "2025/12/12",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2030,7 +2480,9 @@ window.liveVacationData = [
     "district": "新市區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "252天",
+    "lastDate": "2025/10/02",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2039,7 +2491,9 @@ window.liveVacationData = [
     "district": "永康區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "185天",
+    "lastDate": "2025/12/08",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2048,7 +2502,9 @@ window.liveVacationData = [
     "district": "安南區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "258天",
+    "lastDate": "2025/09/26",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2057,7 +2513,9 @@ window.liveVacationData = [
     "district": "北區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "220天",
+    "lastDate": "2025/11/03",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2066,7 +2524,9 @@ window.liveVacationData = [
     "district": "中西區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "220天",
+    "lastDate": "2025/11/03",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2075,7 +2535,9 @@ window.liveVacationData = [
     "district": "東區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "208天",
+    "lastDate": "2025/11/15",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2084,7 +2546,9 @@ window.liveVacationData = [
     "district": "安平區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "138天",
+    "lastDate": "2026/01/24",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2093,7 +2557,9 @@ window.liveVacationData = [
     "district": "南區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "160天",
+    "lastDate": "2026/01/02",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2102,7 +2568,9 @@ window.liveVacationData = [
     "district": "仁德區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "228天",
+    "lastDate": "2025/10/26",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2111,7 +2579,9 @@ window.liveVacationData = [
     "district": "歸仁區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "198天",
+    "lastDate": "2025/11/25",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2120,7 +2590,9 @@ window.liveVacationData = [
     "district": "關廟區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "140天",
+    "lastDate": "2026/01/22",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2129,7 +2601,9 @@ window.liveVacationData = [
     "district": "龍崎區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "152天",
+    "lastDate": "2026/01/10",
     "isFirstOfCity": false,
     "cityRowspan": 37
   },
@@ -2138,7 +2612,9 @@ window.liveVacationData = [
     "district": "茄萣區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "268天",
+    "lastDate": "2025/09/16",
     "isFirstOfCity": true,
     "cityRowspan": 38
   },
@@ -2147,7 +2623,9 @@ window.liveVacationData = [
     "district": "湖內區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "254天",
+    "lastDate": "2025/09/30",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2156,7 +2634,9 @@ window.liveVacationData = [
     "district": "路竹區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "256天",
+    "lastDate": "2025/09/28",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2165,7 +2645,9 @@ window.liveVacationData = [
     "district": "阿蓮區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "246天",
+    "lastDate": "2025/10/08",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2174,7 +2656,9 @@ window.liveVacationData = [
     "district": "田寮區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "249天",
+    "lastDate": "2025/10/05",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2183,7 +2667,9 @@ window.liveVacationData = [
     "district": "內門區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "136天",
+    "lastDate": "2026/01/26",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2192,7 +2678,9 @@ window.liveVacationData = [
     "district": "旗山區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "175天",
+    "lastDate": "2025/12/18",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2201,7 +2689,9 @@ window.liveVacationData = [
     "district": "美濃區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "171天",
+    "lastDate": "2025/12/22",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2210,7 +2700,9 @@ window.liveVacationData = [
     "district": "六龜區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "237天",
+    "lastDate": "2025/10/17",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2219,7 +2711,9 @@ window.liveVacationData = [
     "district": "甲仙區",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "210天",
+    "lastDate": "2025/11/13",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2228,7 +2722,9 @@ window.liveVacationData = [
     "district": "杉林區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "251天",
+    "lastDate": "2025/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2237,7 +2733,9 @@ window.liveVacationData = [
     "district": "那瑪夏區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "169天",
+    "lastDate": "2025/12/24",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2246,7 +2744,9 @@ window.liveVacationData = [
     "district": "桃源區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "189天",
+    "lastDate": "2025/12/04",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2255,7 +2755,9 @@ window.liveVacationData = [
     "district": "茂林區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "134天",
+    "lastDate": "2026/01/28",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2264,7 +2766,9 @@ window.liveVacationData = [
     "district": "永安區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "135天",
+    "lastDate": "2026/01/27",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2273,7 +2777,9 @@ window.liveVacationData = [
     "district": "彌陀區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "212天",
+    "lastDate": "2025/11/11",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2282,7 +2788,9 @@ window.liveVacationData = [
     "district": "岡山區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "187天",
+    "lastDate": "2025/12/06",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2291,7 +2799,9 @@ window.liveVacationData = [
     "district": "燕巢區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "277天",
+    "lastDate": "2025/09/07",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2300,7 +2810,9 @@ window.liveVacationData = [
     "district": "橋頭區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "145天",
+    "lastDate": "2026/01/17",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2309,7 +2821,9 @@ window.liveVacationData = [
     "district": "梓官區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "157天",
+    "lastDate": "2026/01/05",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2318,7 +2832,9 @@ window.liveVacationData = [
     "district": "楠梓區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "167天",
+    "lastDate": "2025/12/26",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2327,7 +2843,9 @@ window.liveVacationData = [
     "district": "左營區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "182天",
+    "lastDate": "2025/12/11",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2336,7 +2854,9 @@ window.liveVacationData = [
     "district": "三民區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "178天",
+    "lastDate": "2025/12/15",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2345,7 +2865,9 @@ window.liveVacationData = [
     "district": "鼓山區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "268天",
+    "lastDate": "2025/09/16",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2354,7 +2876,9 @@ window.liveVacationData = [
     "district": "鹽埕區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "255天",
+    "lastDate": "2025/09/29",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2363,7 +2887,9 @@ window.liveVacationData = [
     "district": "前金區",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "267天",
+    "lastDate": "2025/09/17",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2372,7 +2898,9 @@ window.liveVacationData = [
     "district": "新興區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "177天",
+    "lastDate": "2025/12/16",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2381,7 +2909,9 @@ window.liveVacationData = [
     "district": "苓雅區",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "135天",
+    "lastDate": "2026/01/27",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2390,7 +2920,9 @@ window.liveVacationData = [
     "district": "前鎮區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "223天",
+    "lastDate": "2025/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2399,7 +2931,9 @@ window.liveVacationData = [
     "district": "旗津區",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "139天",
+    "lastDate": "2026/01/23",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2408,7 +2942,9 @@ window.liveVacationData = [
     "district": "小港區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "176天",
+    "lastDate": "2025/12/17",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2417,7 +2953,9 @@ window.liveVacationData = [
     "district": "鳳山區",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "182天",
+    "lastDate": "2025/12/11",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2426,7 +2964,9 @@ window.liveVacationData = [
     "district": "鳥松區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "245天",
+    "lastDate": "2025/10/09",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2435,7 +2975,9 @@ window.liveVacationData = [
     "district": "仁武區",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "263天",
+    "lastDate": "2025/09/21",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2444,7 +2986,9 @@ window.liveVacationData = [
     "district": "大社區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "221天",
+    "lastDate": "2025/11/02",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2453,7 +2997,9 @@ window.liveVacationData = [
     "district": "大樹區",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "210天",
+    "lastDate": "2025/11/13",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2462,7 +3008,9 @@ window.liveVacationData = [
     "district": "大寮區",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "163天",
+    "lastDate": "2025/12/30",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2471,7 +3019,9 @@ window.liveVacationData = [
     "district": "林園區",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "138天",
+    "lastDate": "2026/01/24",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
@@ -2480,16 +3030,20 @@ window.liveVacationData = [
     "district": "高樹鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "151天",
+    "lastDate": "2026/01/11",
     "isFirstOfCity": true,
     "cityRowspan": 33
   },
   {
     "city": "屏東縣",
     "district": "三地門鄉",
-    "historyCount": 30,
-    "status": "無",
-    "daysPassed": "174天",
+    "historyCount": 31,
+    "status": "停止上班上課",
+    "note": "-",
+    "daysPassed": "0天 (今天)",
+    "lastDate": "2026/06/11",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2498,7 +3052,9 @@ window.liveVacationData = [
     "district": "霧臺鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "157天",
+    "lastDate": "2026/01/05",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2507,7 +3063,9 @@ window.liveVacationData = [
     "district": "里港鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "278天",
+    "lastDate": "2025/09/06",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2516,7 +3074,9 @@ window.liveVacationData = [
     "district": "九如鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "270天",
+    "lastDate": "2025/09/14",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2525,7 +3085,9 @@ window.liveVacationData = [
     "district": "鹽埔鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "267天",
+    "lastDate": "2025/09/17",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2534,7 +3096,9 @@ window.liveVacationData = [
     "district": "長治鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "245天",
+    "lastDate": "2025/10/09",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2543,7 +3107,9 @@ window.liveVacationData = [
     "district": "屏東市",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "269天",
+    "lastDate": "2025/09/15",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2552,7 +3118,9 @@ window.liveVacationData = [
     "district": "麟洛鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "216天",
+    "lastDate": "2025/11/07",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2561,7 +3129,9 @@ window.liveVacationData = [
     "district": "內埔鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "265天",
+    "lastDate": "2025/09/19",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2570,7 +3140,9 @@ window.liveVacationData = [
     "district": "瑪家鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "145天",
+    "lastDate": "2026/01/17",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2579,7 +3151,9 @@ window.liveVacationData = [
     "district": "泰武鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "185天",
+    "lastDate": "2025/12/08",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2588,7 +3162,9 @@ window.liveVacationData = [
     "district": "萬巒鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "132天",
+    "lastDate": "2026/01/30",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2597,7 +3173,9 @@ window.liveVacationData = [
     "district": "竹田鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "251天",
+    "lastDate": "2025/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2606,7 +3184,9 @@ window.liveVacationData = [
     "district": "萬丹鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "189天",
+    "lastDate": "2025/12/04",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2615,7 +3195,9 @@ window.liveVacationData = [
     "district": "新園鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "178天",
+    "lastDate": "2025/12/15",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2624,7 +3206,9 @@ window.liveVacationData = [
     "district": "崁頂鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "201天",
+    "lastDate": "2025/11/22",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2633,7 +3217,9 @@ window.liveVacationData = [
     "district": "潮州鎮",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "213天",
+    "lastDate": "2025/11/10",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2642,7 +3228,9 @@ window.liveVacationData = [
     "district": "來義鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "262天",
+    "lastDate": "2025/09/22",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2651,7 +3239,9 @@ window.liveVacationData = [
     "district": "新埤鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "121天",
+    "lastDate": "2026/02/10",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2660,7 +3250,9 @@ window.liveVacationData = [
     "district": "南州鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "191天",
+    "lastDate": "2025/12/02",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2669,7 +3261,9 @@ window.liveVacationData = [
     "district": "東港鎮",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "151天",
+    "lastDate": "2026/01/11",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2678,7 +3272,9 @@ window.liveVacationData = [
     "district": "琉球鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "177天",
+    "lastDate": "2025/12/16",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2687,7 +3283,9 @@ window.liveVacationData = [
     "district": "佳冬鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "165天",
+    "lastDate": "2025/12/28",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2696,7 +3294,9 @@ window.liveVacationData = [
     "district": "林邊鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "123天",
+    "lastDate": "2026/02/08",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2705,7 +3305,9 @@ window.liveVacationData = [
     "district": "仿寮鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "155天",
+    "lastDate": "2026/01/07",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2714,7 +3316,9 @@ window.liveVacationData = [
     "district": "春日鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "233天",
+    "lastDate": "2025/10/21",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2723,7 +3327,9 @@ window.liveVacationData = [
     "district": "枋山鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "142天",
+    "lastDate": "2026/01/20",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2732,7 +3338,9 @@ window.liveVacationData = [
     "district": "獅子鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "147天",
+    "lastDate": "2026/01/15",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2741,7 +3349,9 @@ window.liveVacationData = [
     "district": "車城鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "167天",
+    "lastDate": "2025/12/26",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2750,7 +3360,9 @@ window.liveVacationData = [
     "district": "牡丹鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "243天",
+    "lastDate": "2025/10/11",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2759,7 +3371,9 @@ window.liveVacationData = [
     "district": "恆春鎮",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "123天",
+    "lastDate": "2026/02/08",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2768,7 +3382,9 @@ window.liveVacationData = [
     "district": "滿州鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "262天",
+    "lastDate": "2025/09/22",
     "isFirstOfCity": false,
     "cityRowspan": 33
   },
@@ -2777,7 +3393,9 @@ window.liveVacationData = [
     "district": "頭城鎮",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "199天",
+    "lastDate": "2025/11/24",
     "isFirstOfCity": true,
     "cityRowspan": 12
   },
@@ -2786,7 +3404,9 @@ window.liveVacationData = [
     "district": "礁溪鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "277天",
+    "lastDate": "2025/09/07",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2795,7 +3415,9 @@ window.liveVacationData = [
     "district": "壯圍鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "240天",
+    "lastDate": "2025/10/14",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2804,7 +3426,9 @@ window.liveVacationData = [
     "district": "宜蘭市",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "190天",
+    "lastDate": "2025/12/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2813,7 +3437,9 @@ window.liveVacationData = [
     "district": "員山鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "120天",
+    "lastDate": "2026/02/11",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2822,7 +3448,9 @@ window.liveVacationData = [
     "district": "五結鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "128天",
+    "lastDate": "2026/02/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2831,7 +3459,9 @@ window.liveVacationData = [
     "district": "羅東鎮",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "250天",
+    "lastDate": "2025/10/04",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2840,7 +3470,9 @@ window.liveVacationData = [
     "district": "三星鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "250天",
+    "lastDate": "2025/10/04",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2849,7 +3481,9 @@ window.liveVacationData = [
     "district": "大同鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "249天",
+    "lastDate": "2025/10/05",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2858,7 +3492,9 @@ window.liveVacationData = [
     "district": "冬山鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "192天",
+    "lastDate": "2025/12/01",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2867,7 +3503,9 @@ window.liveVacationData = [
     "district": "蘇澳鎮",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "222天",
+    "lastDate": "2025/11/01",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2876,7 +3514,9 @@ window.liveVacationData = [
     "district": "南澳鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "243天",
+    "lastDate": "2025/10/11",
     "isFirstOfCity": false,
     "cityRowspan": 12
   },
@@ -2885,7 +3525,9 @@ window.liveVacationData = [
     "district": "秀林鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "200天",
+    "lastDate": "2025/11/23",
     "isFirstOfCity": true,
     "cityRowspan": 13
   },
@@ -2894,7 +3536,9 @@ window.liveVacationData = [
     "district": "新城鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "128天",
+    "lastDate": "2026/02/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2903,7 +3547,9 @@ window.liveVacationData = [
     "district": "花蓮市",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "262天",
+    "lastDate": "2025/09/22",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2912,7 +3558,9 @@ window.liveVacationData = [
     "district": "吉安鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "267天",
+    "lastDate": "2025/09/17",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2921,7 +3569,9 @@ window.liveVacationData = [
     "district": "壽豐鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "203天",
+    "lastDate": "2025/11/20",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2930,7 +3580,9 @@ window.liveVacationData = [
     "district": "鳳林鎮",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "268天",
+    "lastDate": "2025/09/16",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2939,7 +3591,9 @@ window.liveVacationData = [
     "district": "萬榮鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "151天",
+    "lastDate": "2026/01/11",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2948,7 +3602,9 @@ window.liveVacationData = [
     "district": "光復鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "226天",
+    "lastDate": "2025/10/28",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2957,7 +3613,9 @@ window.liveVacationData = [
     "district": "豐濱鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "272天",
+    "lastDate": "2025/09/12",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2966,7 +3624,9 @@ window.liveVacationData = [
     "district": "瑞穗鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "206天",
+    "lastDate": "2025/11/17",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2975,7 +3635,9 @@ window.liveVacationData = [
     "district": "玉里鎮",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "140天",
+    "lastDate": "2026/01/22",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2984,7 +3646,9 @@ window.liveVacationData = [
     "district": "卓溪鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "125天",
+    "lastDate": "2026/02/06",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -2993,7 +3657,9 @@ window.liveVacationData = [
     "district": "富里鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "277天",
+    "lastDate": "2025/09/07",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -3002,7 +3668,9 @@ window.liveVacationData = [
     "district": "長濱鄉",
     "historyCount": 35,
     "status": "無",
+    "note": "-",
     "daysPassed": "176天",
+    "lastDate": "2025/12/17",
     "isFirstOfCity": true,
     "cityRowspan": 16
   },
@@ -3011,7 +3679,9 @@ window.liveVacationData = [
     "district": "海端鄉",
     "historyCount": 32,
     "status": "無",
+    "note": "-",
     "daysPassed": "154天",
+    "lastDate": "2026/01/08",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3020,7 +3690,9 @@ window.liveVacationData = [
     "district": "池上鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "223天",
+    "lastDate": "2025/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3029,7 +3701,9 @@ window.liveVacationData = [
     "district": "成功鎮",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "154天",
+    "lastDate": "2026/01/08",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3038,7 +3712,9 @@ window.liveVacationData = [
     "district": "關山鎮",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "214天",
+    "lastDate": "2025/11/09",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3047,7 +3723,9 @@ window.liveVacationData = [
     "district": "鹿野鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "245天",
+    "lastDate": "2025/10/09",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3056,7 +3734,9 @@ window.liveVacationData = [
     "district": "東河鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "136天",
+    "lastDate": "2026/01/26",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3065,7 +3745,9 @@ window.liveVacationData = [
     "district": "延平鄉",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "268天",
+    "lastDate": "2025/09/16",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3074,7 +3756,9 @@ window.liveVacationData = [
     "district": "卑南鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "177天",
+    "lastDate": "2025/12/16",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3083,7 +3767,9 @@ window.liveVacationData = [
     "district": "臺東市",
     "historyCount": 28,
     "status": "無",
+    "note": "-",
     "daysPassed": "180天",
+    "lastDate": "2025/12/13",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3092,7 +3778,9 @@ window.liveVacationData = [
     "district": "太麻里鄉",
     "historyCount": 29,
     "status": "無",
+    "note": "-",
     "daysPassed": "156天",
+    "lastDate": "2026/01/06",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3101,7 +3789,9 @@ window.liveVacationData = [
     "district": "金峰鄉",
     "historyCount": 34,
     "status": "無",
+    "note": "-",
     "daysPassed": "197天",
+    "lastDate": "2025/11/26",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3110,7 +3800,9 @@ window.liveVacationData = [
     "district": "大武鄉",
     "historyCount": 33,
     "status": "無",
+    "note": "-",
     "daysPassed": "166天",
+    "lastDate": "2025/12/27",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3119,7 +3811,9 @@ window.liveVacationData = [
     "district": "達仁鄉",
     "historyCount": 36,
     "status": "無",
+    "note": "-",
     "daysPassed": "186天",
+    "lastDate": "2025/12/07",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3128,7 +3822,9 @@ window.liveVacationData = [
     "district": "綠島鄉",
     "historyCount": 31,
     "status": "無",
+    "note": "-",
     "daysPassed": "171天",
+    "lastDate": "2025/12/22",
     "isFirstOfCity": false,
     "cityRowspan": 16
   },
@@ -3137,7 +3833,9 @@ window.liveVacationData = [
     "district": "蘭嶼鄉",
     "historyCount": 30,
     "status": "無",
+    "note": "-",
     "daysPassed": "199天",
+    "lastDate": "2025/11/24",
     "isFirstOfCity": false,
     "cityRowspan": 16
   }
