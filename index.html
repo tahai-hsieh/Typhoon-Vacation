@@ -89,6 +89,24 @@
         .status-time {
             font-size: 16px;
         }
+        .refresh-btn {
+            font-family: "BiauKai", "標楷體", "DFKai-SB", serif;
+            font-size: 16px;
+            padding: 5px 15px;
+            background-color: #ffffff;
+            color: #000000;
+            border: 1px solid #000000;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .refresh-btn:hover {
+            background-color: #f0f0f0;
+        }
+        .refresh-btn:disabled {
+            color: #999999;
+            border-color: #999999;
+            cursor: not-allowed;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -129,7 +147,7 @@
 
     <div class="disclaimer-section">
         <div class="disclaimer-title">【免責聲明】</div>
-        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔任何法律責任。出門前請務必再次確認官方最新消息，注意安全！
+        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔 any 法律責任。出門前請務必再次確認官方最新消息，注意安全！
     </div>
 
     <div class="filter-section">
@@ -174,7 +192,8 @@
             </tr>
         </thead>
         <tbody id="table-body">
-            </tbody>
+            <tr><td colspan="7">資料即時讀取中，請稍候...</td></tr>
+        </tbody>
     </table>
 </div>
 
@@ -191,7 +210,7 @@
         const targetData = (window.liveVacationData && window.liveVacationData.length > 0) ? window.liveVacationData : [];
         
         if (targetData.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="7">資料載入中，請稍後或點擊上方按鈕檢查更新...</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="7">系統正在動態載入最新防災事實，請點擊按鈕刷新...</td></tr>';
             return;
         }
 
@@ -236,12 +255,16 @@
         });
 
         const citySelect = document.getElementById('city-select');
+        const savedCityValue = citySelect.value;
         citySelect.innerHTML = '<option value="">--請選擇縣市--</option>';
         Object.keys(cityDistMap).forEach(city => {
             const opt = document.createElement('option');
             opt.value = city; opt.innerText = city;
             citySelect.appendChild(opt);
         });
+        if (savedCityValue && cityDistMap[savedCityValue]) {
+            citySelect.value = savedCityValue;
+        }
     }
 
     function onCityChange() {
@@ -346,18 +369,23 @@
         filterTable();
     }
 
+    // 🫵 核心修復：強制加上時間戳記（毫秒級變數），全面秒殺重整與按鈕快取！
     function refreshData() {
         const btn = document.getElementById('refresh-btn');
         btn.disabled = true; btn.innerText = "正在及時檢查...";
+        
         const oldScript = document.getElementById('data-script');
         if (oldScript) oldScript.remove();
         
         const script = document.createElement('script');
         script.id = 'data-script';
-        script.src = 'data.js?t=' + new Date().getTime();
+        // 💥 加上毫秒時間戳記，確保每一次重整、點擊都必定向伺服器索取最新的 data.js
+        script.src = 'data.js?timestamp=' + new Date().getTime();
         script.onload = function() {
             renderTableFromData();
-            setTimeout(() => { btn.disabled = false; btn.innerText = "🔄 及時檢查更新"; }, 500);
+            // 重新整理完後，強制執行一遍過濾器同步，消除網頁殘影
+            filterTable();
+            setTimeout(() => { btn.disabled = false; btn.innerText = "🔄 及時檢查更新"; }, 600);
         };
         script.onerror = function() {
             renderTableFromData();
@@ -366,10 +394,10 @@
         document.body.appendChild(script);
     }
 
+    // 🫵 確保一進網頁、或者網頁按重新整理（F5）時，自動觸發無快取的 refreshData()
     window.onload = function() {
         refreshData();
     };
 </script>
-<script id="data-script" src="data.js"></script>
 </body>
 </html>
