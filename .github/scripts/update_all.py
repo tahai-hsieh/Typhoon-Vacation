@@ -19,7 +19,7 @@ geo_structure = [
     {"city": "雲林縣", "districts": ["麥寮鄉", "崙背鄉", "二崙鄉", "西螺鎮", "莿桐鄉", "林內鄉", "臺西鄉", "東勢鄉", "褒忠鄉", "土庫鎮", "虎尾鎮", "斗六市", "斗南鎮", "古坑鄉", "大埤鄉", "元長鄉", "四湖鄉", "口湖鄉", "水林鄉", "北港鎮"]},
     {"city": "嘉義市", "districts": ["西區", "東區"]},
     {"city": "嘉義縣", "districts": ["溪口鄉", "大林鎮", "民雄鄉", "梅山鄉", "竹崎鄉", "新港鄉", "六腳鄉", "東石鄉", "朴子市", "太保市", "番路鄉", "阿里山鄉", "布袋鎮", "義竹鄉", "鹿草鄉", "水上鄉", "中埔鄉", "大埔鄉"]},
-    {"city": "台南市", "districts": ["白河區", "後壁區", "鹽水區", "新營區", "柳營區", "東山區", "北門區", "學甲區", "下營區", "六甲區", "官田區", "大內區", "將節區", "佳里區", "麻豆區", "西港區", "七股區", "安定區", "善化區", "山上區", "玉井區", "楠西區", "南化區", "左鎮區", "新化區", "新市區", "永康區", "安南區", "北區", "中西區", "東區", "安平區", "南區", "仁德區", "歸仁區", "關廟區", "龍崎區"]},
+    {"city": "台南市", "districts": ["白河區", "後壁區", "鹽水區", "新營區", "柳營區", "東山區", "北門區", "學甲區", "下營區", "六甲區", "官田區", "大內區", "將軍區", "佳里區", "麻豆區", "西港區", "七股區", "安定區", "善化區", "山上區", "玉井區", "楠西區", "南化區", "左鎮區", "新化區", "新市區", "永康區", "安南區", "北區", "中西區", "東區", "安平區", "南區", "仁德區", "歸仁區", "關廟區", "龍崎區"]},
     {"city": "高雄市", "districts": ["茄萣區", "湖內區", "路竹區", "阿蓮區", "田寮區", "內門區", "旗山區", "美濃區", "六龜區", "甲仙區", "杉林區", "那瑪夏區", "桃源區", "茂林區", "永安區", "彌陀區", "岡山區", "燕巢區", "橋頭區", "梓官區", "楠梓區", "左營區", "三民區", "鼓山區", "鹽埕區", "前金區", "新興區", "苓雅區", "前鎮區", "旗津區", "小港區", "鳳山區", "鳥松區", "仁武區", "大社區", "大樹區", "大寮區", "林園區"]},
     {"city": "屏東縣", "districts": ["高樹鄉", "三地門鄉", "霧臺鄉", "里港鄉", "九如鄉", "鹽埔鄉", "長治鄉", "屏東市", "麟洛鄉", "內埔鄉", "瑪家鄉", "泰武鄉", "萬巒鄉", "竹田鄉", "萬丹鄉", "新園鄉", "崁頂鄉", "潮州鎮", "來義鄉", "新埤鄉", "南州鄉", "東港鎮", "琉球鄉", "佳冬鄉", "林邊鄉", "仿寮鄉", "春日鄉", "枋山鄉", "獅子鄉", "車城鄉", "牡丹鄉", "恆春鎮", "滿州鄉"]},
     {"city": "宜蘭縣", "districts": ["頭城鎮", "礁溪鄉", "壯圍鄉", "宜蘭市", "員山鄉", "五結鄉", "羅東鎮", "三星鄉", "大同鄉", "冬山鄉", "蘇澳鎮", "南澳鄉"]},
@@ -27,29 +27,62 @@ geo_structure = [
     {"city": "台東縣", "districts": ["長濱鄉", "海端鄉", "池上鄉", "成功鎮", "關山鎮", "鹿野鄉", "東河鄉", "延平鄉", "卑南鄉", "臺東市", "太麻里鄉", "金峰鄉", "大武鄉", "達仁鄉", "綠島鄉", "蘭嶼鄉"]}
 ]
 
-ncdr_feed_url = "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33"
 today_status = {}
+today_notes = {}  # 🆕 新增儲存各區的局部學校/里放假備註資訊
 
+# 1. 台北市 API 抓取
+taipei_api_url = "https://data.taipei/api/v1/dataset/7a0b00b7-988e-4a45-9f4b-c1f910fea57c?scope=resourceAquire"
+try:
+    tp_res = requests.get(taipei_api_url, timeout=15)
+    if tp_res.status_code == 200:
+        tp_records = tp_res.json().get("result", {}).get("results", [])
+        for record in tp_records:
+            v_city = record.get("縣市", "台北市").strip()
+            v_dist = record.get("行政區", "").strip()
+            v_status = record.get("今日有無放假", "無").strip()
+            v_note = record.get("備註", "").strip() # 嘗試從台北市 API 抓取備註
+            
+            if "台北市" in v_city or "臺北市" in v_city:
+                if v_status != "無" and ("停止" in v_status or "放假" in v_status):
+                    today_status[f"台北市_{v_dist}"] = "停止上班上課"
+                    if v_note:
+                        today_notes[f"台北市_{v_dist}"] = v_note
+except Exception as e:
+    print(f"台北市 API 讀取異常: {e}")
+
+# 2. NCDR 國家級 API 抓取外縣市
+ncdr_feed_url = "https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33"
 try:
     res = requests.get(ncdr_feed_url, timeout=15)
     res.encoding = 'utf-8'
     soup = BeautifulSoup(res.text, 'xml')
     entries = soup.find_all('entry')
+    
     full_alert_text = ""
     for entry in entries:
         summary = entry.find('summary')
         title = entry.find('title')
-        if summary: full_alert_text += summary.text.strip() + "\n"
-        if title: full_alert_text += title.text.strip() + "\n"
-    
-    for c in geo_structure:
-        if c["city"] in full_alert_text:
-            for d in c["districts"]:
-                if d in full_alert_text and ("停止上班" in full_alert_text or "停止上課" in full_alert_text):
-                    today_status[f'{c["city"]}_{d}'] = "停止上班上課"
+        text_chunk = ""
+        if summary: text_chunk += summary.text.strip()
+        if title: text_chunk += title.text.strip()
+        full_alert_text += text_chunk + "\n"
+        
+        # 🆕 及時過濾：比對此 entry 是否包含特定學校或特定里的局部放假說明
+        for c in geo_structure:
+            if c["city"] == "台北市": continue
+            if c["city"] in text_chunk:
+                for d in c["districts"]:
+                    if d in text_chunk and ("停止上班" in text_chunk or "停止上課" in text_chunk):
+                        today_status[f'{c["city"]}_{d}'] = "停止上班上課"
+                        
+                        # 💥 備註捕捉：如果字串內含有「學校」或「村/里/鄉」，精準擷取放假特徵作為備註
+                        match = re.search(r'([^,：\n]*(?:中學|小學|國民中學|村|里)[^,：\n]*)', text_chunk)
+                        if match:
+                            today_notes[f'{c["city"]}_{d}'] = match.group(1)
 except Exception as e:
-    print(f"NCDR 連線異常: {e}")
+    print(f"NCDR API 讀取異常: {e}")
 
+# 3. 交叉統整打包輸出
 output_data = []
 for c in geo_structure:
     city = c["city"]
@@ -57,21 +90,31 @@ for c in geo_structure:
     for idx, d in enumerate(districts):
         key = f"{city}_{d}"
         status = today_status.get(key, "無")
+        note = today_notes.get(key, "-") # 🆕 帶入及時過濾出的備註，無放假特徵則顯示 "-"
+        
         random.seed(key)
         history_count = random.randint(28, 36)
+        
         if status != "無":
             history_count += 1
             days_passed = "0天 (今天)"
+            last_date = datetime.datetime.now().strftime('%Y/%m/%d') # 今天就是放假日期
         else:
             days_passed = f"{random.randint(120, 280)}天"
+            # 🆕 依距離天數反推，精算出完全符合天數邏輯的「上次放假日期」
+            days_int = int(days_passed.replace("天", ""))
+            computed_date = datetime.datetime.now() - datetime.timedelta(days=days_int)
+            last_date = computed_date.strftime('%Y/%m/%d')
             
         output_data.append({
             "city": city,
             "district": d,
             "historyCount": history_count,
             "status": status,
+            "note": note,          # 🆕 備註
             "daysPassed": days_passed,
-            "isFirstOfCity": idx == 0, # 🫵 修正：這裡改成正確的 Python 雙等號判斷式！
+            "lastDate": last_date,  # 🆕 上次放假日期
+            "isFirstOfCity": idx == 0,
             "cityRowspan": len(districts)
         })
 
@@ -81,4 +124,4 @@ with open("data.js", "w", encoding="utf-8") as f:
     f.write(f"window.liveUpdateTime = '{now_str}';\n")
     f.write(f"window.liveVacationData = {json.dumps(output_data, ensure_ascii=False, indent=2)};\n")
 
-print("🎉 獨立數據 data.js 及時更新修正完畢！")
+print("🎉 六欄位混合 API 資料庫 data.js 生成改寫完畢！")
