@@ -147,7 +147,7 @@
 
     <div class="disclaimer-section">
         <div class="disclaimer-title">【免責聲明】</div>
-        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔 any 法律責任。出門前請務必再次確認官方最新消息，注意安全！
+        本站所提供之即時及歷史停班停課資訊，皆彙整、串接自政府公開資料。本站雖盡力確保資訊之即時性與正確性，但實際停班停課狀態仍以「行政院人事行政總處」及「各縣市政府」之最新公告為準。若因資料傳輸延遲或官方網站更動而導致任何損失，本站不承擔任何法律責任。出門前請務必再次確認官方最新消息，注意安全！
     </div>
 
     <div class="filter-section">
@@ -214,6 +214,7 @@
             return;
         }
 
+        // 🫵 核心修復：強制將判斷名稱改為大寫的 liveUpdateTime，完美對齊後台 Python！
         if (window.liveUpdateTime) {
             document.getElementById('update-time').innerText = "最後及時更新時間：" + window.liveUpdateTime;
         }
@@ -369,7 +370,6 @@
         filterTable();
     }
 
-    // 🫵 核心修復：強制加上時間戳記（毫秒級變數），全面秒殺重整與按鈕快取！
     function refreshData() {
         const btn = document.getElementById('refresh-btn');
         btn.disabled = true; btn.innerText = "正在及時檢查...";
@@ -379,11 +379,9 @@
         
         const script = document.createElement('script');
         script.id = 'data-script';
-        // 💥 加上毫秒時間戳記，確保每一次重整、點擊都必定向伺服器索取最新的 data.js
         script.src = 'data.js?timestamp=' + new Date().getTime();
         script.onload = function() {
             renderTableFromData();
-            // 重新整理完後，強制執行一遍過濾器同步，消除網頁殘影
             filterTable();
             setTimeout(() => { btn.disabled = false; btn.innerText = "🔄 及時檢查更新"; }, 600);
         };
@@ -394,7 +392,6 @@
         document.body.appendChild(script);
     }
 
-    // 🫵 確保一進網頁、或者網頁按重新整理（F5）時，自動觸發無快取的 refreshData()
     window.onload = function() {
         refreshData();
     };
