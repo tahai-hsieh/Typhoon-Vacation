@@ -106,9 +106,6 @@
         .city-title {
             font-weight: bold;
         }
-        .continued {
-            font-style: italic;
-        }
         .vacation-active {
             color: red !important;
             font-weight: bold;
@@ -191,8 +188,13 @@
 
     function renderTableFromData() {
         const tbody = document.getElementById('table-body');
-        const targetData = (window.liveVacationData && window.liveVacationData.length > 0) ? window.liveVacationData : generateDefaultData();
+        const targetData = (window.liveVacationData && window.liveVacationData.length > 0) ? window.liveVacationData : [];
         
+        if (targetData.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="7">資料載入中，請稍後或點擊上方按鈕檢查更新...</td></tr>';
+            return;
+        }
+
         if (window.liveUpdateTime) {
             document.getElementById('update-time').innerText = "最後及時更新時間：" + window.liveUpdateTime;
         }
@@ -207,35 +209,8 @@
             html += `<td>${item.district}</td><td>${item.historyCount}</td><td${activeClass}>${item.status}</td><td>${item.note}</td><td>${item.daysPassed}</td><td>${item.lastDate}</td></tr>`;
         });
         
-        html += '<tr><td class="continued">(續寫)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>';
         tbody.innerHTML = html;
         initFilters();
-    }
-
-    function generateDefaultData() {
-        const defaultGeo = [
-            {"city": "基隆市", "districts": ["萬里區", "金山區", "板橋區", "七堵區", "安樂區", "仁愛區", "信義區", "中正區", "中山區", "暖暖區"]},
-            {"city": "台北市", "districts": ["北投區", "士林區", "內湖區", "中山區", "大同區", "松山區", "萬華區", "中正區", "大安區", "信義區", "南港區", "文山區"]},
-            {"city": "新北市", "districts": ["石門區", "三芝區", "淡水區", "八里區", "林口區", "五股區", "蘆洲區", "三重區", "新莊區", "泰山區", "板橋區", "中和區", "永和區", "土城區", "樹林區", "鶯歌區", "三峽區", "新店區", "汐止區", "深坑區", "石碇區", "坪林區", "烏來區", "瑞芳區", "雙溪區", "貢寮區", "平溪區"]},
-            {"city": "桃園市", "districts": ["蘆竹區", "大園區", "觀音區", "新屋區", "龜山區", "桃園區", "八德區", "中壢區", "平鎮區", "楊梅區", "大溪區", "龍潭區", "復興區"]}
-        ];
-        let arr = [];
-        defaultGeo.forEach(c => {
-            c.districts.forEach((d, idx) => {
-                let seed = c.city + "_" + d;
-                arr.push({
-                    city: c.city, district: d,
-                    historyCount: 28 + (seed.length % 9),
-                    status: "無",
-                    note: "-",
-                    daysPassed: (120 + (seed.length * 3 % 160)) + "天",
-                    lastDate: "2024/10/03",
-                    isFirstOfCity: idx === 0,
-                    cityRowspan: c.districts.length
-                });
-            });
-        });
-        return arr;
     }
 
     function initFilters() {
@@ -244,7 +219,6 @@
         cityDistMap = {};
 
         rows.forEach(row => {
-            if (row.querySelector('.continued')) return;
             const cityTd = row.querySelector('.city-title');
             if (cityTd && cityTd.style.display !== 'none') {
                 currentCity = cityTd.innerText.trim();
@@ -296,10 +270,6 @@
         let currentCity = '';
 
         rows.forEach(row => {
-            if (row.querySelector('.continued')) {
-                row.style.display = (selectedCity || selectedDist || selectedStatus) ? 'none' : '';
-                return;
-            }
             const cityTd = row.querySelector('.city-title');
             if (cityTd) {
                 currentCity = cityTd.getAttribute('data-original-city') || cityTd.innerText.trim();
@@ -342,7 +312,7 @@
         document.querySelectorAll('.temp-city-td').forEach(el => el.remove());
 
         rows.forEach(row => {
-            if (row.style.display === 'none' || row.querySelector('.continued')) return;
+            if (row.style.display === 'none') return;
             const cityTd = row.querySelector('.city-title');
             if (cityTd) {
                 cityTd.style.display = '';
@@ -397,7 +367,6 @@
     }
 
     window.onload = function() {
-        renderTableFromData();
         refreshData();
     };
 </script>
