@@ -1,4 +1,4 @@
-window.liveUpdateTime = '2026/06/11 10:53';
+window.liveUpdateTime = '2026/06/11 12:29';
 window.liveVacationData = [
   {
     "city": "基隆市",
@@ -2455,7 +2455,7 @@ window.liveVacationData = [
   },
   {
     "city": "台南市",
-    "district": "left鎮區",
+    "district": "左鎮區",
     "historyCount": 32,
     "status": "無",
     "note": "-",
