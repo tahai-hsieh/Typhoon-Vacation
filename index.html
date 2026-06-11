@@ -13,7 +13,7 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 1000px;
+            max-width: 1100px; /* 稍微放大寬度以容納六個欄位 */
             margin: 0 auto;
             padding: 10px;
         }
@@ -185,12 +185,12 @@
     <table id="data-table">
         <thead>
             <tr>
-                <th style="width: 20%;">縣市</th>
-                <th style="width: 20%;">行政區</th>
-                <th style="width: 20%;">歷年放假次數</th>
-                <th style="width: 20%;">今日有無放假</th>
-                <th style="width: 20%;">距離上次放假天數</th>
-            </tr>
+                <th style="width: 16%;">縣市</th>
+                <th style="width: 16%;">行政區</th>
+                <th style="width: 16%;">歷年放假次數</th>
+                <th style="width: 16%;">今日有無放假</th>
+                <th style="width: 16%;">備註</th> <th style="width: 10%;">距離上次放假天數</th>
+                <th style="width: 10%;">上次放假日期</th> </tr>
         </thead>
         <tbody id="table-body">
             </tbody>
@@ -199,11 +199,14 @@
 
 <script>
     let cityDistMap = {};
-    let rawVacationData = [];
+
+    function getStatusColIndex(row) {
+        const cityTd = row.querySelector('.city-title');
+        return (cityTd && cityTd.style.display !== 'none') ? 3 : 2;
+    }
 
     function renderTableFromData() {
         const tbody = document.getElementById('table-body');
-        // 如果後台還沒跑完，或是 data.js 沒加載成功，啟用前端永久預設骨架
         const targetData = (window.liveVacationData && window.liveVacationData.length > 0) ? window.liveVacationData : generateDefaultData();
         
         if (window.liveUpdateTime) {
@@ -211,20 +214,18 @@
         }
 
         let html = "";
-        let currentCity = "";
-        
         targetData.forEach(item => {
             html += "<tr>";
             if (item.isFirstOfCity) {
                 html += `<td class="city-title" rowspan="${item.cityRowspan}">${item.city}</td>`;
             }
             let activeClass = item.status !== '無' ? ' class="vacation-active"' : '';
-            html += `<td>${item.district}</td><td>${item.historyCount}</td><td${activeClass}>${item.status}</td><td>${item.daysPassed}</td></tr>`;
+            // 🆕 精準渲染新調整的六欄結構
+            html += `<td>${item.district}</td><td>${item.historyCount}</td><td${activeClass}>${item.status}</td><td>${item.note}</td><td>${item.daysPassed}</td><td>${item.lastDate}</td></tr>`;
         });
         
-        html += '<tr><td class="continued">(續寫)</td><td></td><td></td><td></td><td></td></tr>';
+        html += '<tr><td class="continued">(續寫)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>';
         tbody.innerHTML = html;
-        
         initFilters();
     }
 
@@ -243,13 +244,14 @@
                     city: c.city, district: d,
                     historyCount: 28 + (seed.length % 9),
                     status: "無",
+                    note: "-", // 預設無備註
                     daysPassed: (120 + (seed.length * 3 % 160)) + "天",
+                    lastDate: "2025/10/31", // 預設上次日期
                     isFirstOfCity: idx === 0,
                     cityRowspan: c.districts.length
                 });
             });
         });
-        document.getElementById('update-time').innerText = "最後及時更新時間：2026/06/11 08:28 (前端預載)";
         return arr;
     }
 
@@ -265,7 +267,7 @@
                 currentCity = cityTd.innerText.trim();
             }
             const tds = row.querySelectorAll('td');
-            if (tds.length < 4) return;
+            if (tds.length < 5) return;
             const distName = cityTd ? tds[1].innerText.trim() : tds[0].innerText.trim();
             
             if (currentCity) {
@@ -321,10 +323,10 @@
                 cityTd.setAttribute('data-original-city', currentCity);
             }
             const tds = row.querySelectorAll('td');
-            if (tds.length < 4) return;
+            if (tds.length < 5) return;
             
             const distName = cityTd ? tds[1].innerText.trim() : tds[0].innerText.trim();
-            const statusIdx = (cityTd && cityTd.style.display !== 'none') ? 3 : 2;
+            const statusIdx = getStatusColIndex(row);
             const statusName = tds[statusIdx].innerText.trim();
 
             const cityMatch = !selectedCity || (currentCity === selectedCity);
@@ -394,8 +396,6 @@
     function refreshData() {
         const btn = document.getElementById('refresh-btn');
         btn.disabled = true; btn.innerText = "正在及時檢查...";
-        
-        // 動態及時載入最新 data.js 腳本
         const oldScript = document.getElementById('data-script');
         if (oldScript) oldScript.remove();
         
@@ -415,7 +415,6 @@
 
     window.onload = function() {
         renderTableFromData();
-        // 嘗試及時拉取一次後台數據
         refreshData();
     };
 </script>
