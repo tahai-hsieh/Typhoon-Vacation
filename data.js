@@ -674,10 +674,10 @@ window.liveVacationData = [
     "city": "桃園市",
     "district": "復興區",
     "historyCount": 34,
-    "status": "無",
+    "status": "停止上班上課",
     "note": "-",
-    "daysPassed": "684天",
-    "lastDate": "2024/10/03",
+    "daysPassed": "0天 (今天)",
+    "lastDate": "2026/08/18",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
