@@ -5,7 +5,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 10
@@ -16,7 +16,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -27,7 +27,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -38,7 +38,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -49,7 +49,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -60,7 +60,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -71,7 +71,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -82,7 +82,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -93,7 +93,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -104,7 +104,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 10
@@ -115,7 +115,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 12
@@ -126,7 +126,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -137,7 +137,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -148,7 +148,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -159,7 +159,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -170,7 +170,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -181,7 +181,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -192,7 +192,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -203,7 +203,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -214,7 +214,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -225,7 +225,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -236,7 +236,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -247,7 +247,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 27
@@ -258,7 +258,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -269,7 +269,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -280,7 +280,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -291,7 +291,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -302,7 +302,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -313,7 +313,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -324,7 +324,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -335,7 +335,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -346,7 +346,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -357,7 +357,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -368,7 +368,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -379,7 +379,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -390,7 +390,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -401,7 +401,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -412,7 +412,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -423,7 +423,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -434,7 +434,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -445,7 +445,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -456,7 +456,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -467,7 +467,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -478,7 +478,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -489,7 +489,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -500,7 +500,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -511,7 +511,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -522,7 +522,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -533,7 +533,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -544,7 +544,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 13
@@ -555,7 +555,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -566,7 +566,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -577,7 +577,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -588,7 +588,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -599,7 +599,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -610,7 +610,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -621,7 +621,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -632,7 +632,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -643,7 +643,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -654,7 +654,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -665,7 +665,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -677,7 +677,7 @@ window.liveVacationData = [
     "status": "停止上班上課",
     "note": "-",
     "daysPassed": "0天 (今天)",
-    "lastDate": "2026/08/21",
+    "lastDate": "2026/08/22",
     "isFirstOfCity": false,
     "cityRowspan": 13
   },
@@ -687,7 +687,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 3
@@ -698,7 +698,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 3
@@ -709,7 +709,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 3
@@ -720,7 +720,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 13
@@ -731,7 +731,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -742,7 +742,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -753,7 +753,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -764,7 +764,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -775,7 +775,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -786,7 +786,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -797,7 +797,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -808,7 +808,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -819,7 +819,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -830,7 +830,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -841,7 +841,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -852,7 +852,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -863,7 +863,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 16
@@ -874,7 +874,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -885,7 +885,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -896,7 +896,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -907,7 +907,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -918,7 +918,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -929,7 +929,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -940,7 +940,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -951,7 +951,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -962,7 +962,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -973,7 +973,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -984,7 +984,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -995,7 +995,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -1006,7 +1006,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -1017,7 +1017,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -1028,7 +1028,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -1039,7 +1039,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 27
@@ -1050,7 +1050,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1061,7 +1061,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1072,7 +1072,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1083,7 +1083,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1094,7 +1094,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1105,7 +1105,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1116,7 +1116,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1127,7 +1127,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1138,7 +1138,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1149,7 +1149,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1160,7 +1160,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1171,7 +1171,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1182,7 +1182,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1193,7 +1193,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1204,7 +1204,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1215,7 +1215,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1226,7 +1226,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1237,7 +1237,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1248,7 +1248,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1259,7 +1259,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1270,7 +1270,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1281,7 +1281,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1292,7 +1292,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1303,7 +1303,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1314,7 +1314,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1325,7 +1325,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 27
@@ -1336,7 +1336,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 26
@@ -1347,7 +1347,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1358,7 +1358,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1369,7 +1369,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1380,7 +1380,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1391,7 +1391,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1402,7 +1402,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1413,7 +1413,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1424,7 +1424,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1435,7 +1435,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1446,7 +1446,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1457,7 +1457,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1468,7 +1468,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1479,7 +1479,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1490,7 +1490,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1501,7 +1501,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1512,7 +1512,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1523,7 +1523,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1534,7 +1534,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1545,7 +1545,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1556,7 +1556,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1567,7 +1567,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1578,7 +1578,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1589,7 +1589,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1600,7 +1600,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1611,7 +1611,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 26
@@ -1622,7 +1622,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": true,
     "cityRowspan": 13
@@ -1633,7 +1633,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1644,7 +1644,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1655,7 +1655,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1666,7 +1666,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1677,7 +1677,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1688,7 +1688,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1699,7 +1699,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1710,7 +1710,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1721,7 +1721,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1732,7 +1732,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1743,7 +1743,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1754,7 +1754,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "687天",
+    "daysPassed": "688天",
     "lastDate": "2024/10/03",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -1765,7 +1765,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 20
@@ -1776,7 +1776,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1787,7 +1787,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1798,7 +1798,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1809,7 +1809,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1820,7 +1820,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1831,7 +1831,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1842,7 +1842,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1853,7 +1853,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1864,7 +1864,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1875,7 +1875,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1886,7 +1886,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1897,7 +1897,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1908,7 +1908,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1919,7 +1919,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1930,7 +1930,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1941,7 +1941,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1952,7 +1952,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1963,7 +1963,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1974,7 +1974,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 20
@@ -1985,7 +1985,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 2
@@ -1996,7 +1996,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 2
@@ -2007,7 +2007,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 18
@@ -2018,7 +2018,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2029,7 +2029,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2040,7 +2040,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2051,7 +2051,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2062,7 +2062,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2073,7 +2073,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2084,7 +2084,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2095,7 +2095,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2106,7 +2106,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2117,7 +2117,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2128,7 +2128,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2139,7 +2139,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2150,7 +2150,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2161,7 +2161,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2172,7 +2172,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2183,7 +2183,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2194,7 +2194,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 18
@@ -2205,7 +2205,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 37
@@ -2216,7 +2216,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2227,7 +2227,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2238,7 +2238,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2249,7 +2249,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2260,7 +2260,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2271,7 +2271,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2282,7 +2282,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2293,7 +2293,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2304,7 +2304,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2315,7 +2315,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2326,7 +2326,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2337,7 +2337,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2348,7 +2348,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2359,7 +2359,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2370,7 +2370,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2381,7 +2381,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2392,7 +2392,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2403,7 +2403,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2414,7 +2414,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2425,7 +2425,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2436,7 +2436,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2447,7 +2447,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2458,7 +2458,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2469,7 +2469,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2480,7 +2480,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2491,7 +2491,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2502,7 +2502,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2513,7 +2513,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2524,7 +2524,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2535,7 +2535,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2546,7 +2546,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2557,7 +2557,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2568,7 +2568,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2579,7 +2579,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2590,7 +2590,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2601,7 +2601,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 37
@@ -2612,7 +2612,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 38
@@ -2623,7 +2623,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2634,7 +2634,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2645,7 +2645,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2656,7 +2656,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2667,7 +2667,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2678,7 +2678,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2689,7 +2689,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2700,7 +2700,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2711,7 +2711,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2722,7 +2722,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2733,7 +2733,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2744,7 +2744,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2755,7 +2755,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2766,7 +2766,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2777,7 +2777,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2788,7 +2788,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2799,7 +2799,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2810,7 +2810,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2821,7 +2821,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2832,7 +2832,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2843,7 +2843,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2854,7 +2854,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2865,7 +2865,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2876,7 +2876,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2887,7 +2887,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2898,7 +2898,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2909,7 +2909,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2920,7 +2920,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2931,7 +2931,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2942,7 +2942,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2953,7 +2953,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2964,7 +2964,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2975,7 +2975,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2986,7 +2986,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -2997,7 +2997,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -3008,7 +3008,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -3019,7 +3019,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 38
@@ -3030,7 +3030,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 33
@@ -3041,7 +3041,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3052,7 +3052,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3063,7 +3063,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3074,7 +3074,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3085,7 +3085,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3096,7 +3096,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3107,7 +3107,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3118,7 +3118,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3129,7 +3129,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3140,7 +3140,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3151,7 +3151,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3162,7 +3162,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3173,7 +3173,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3184,7 +3184,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3195,7 +3195,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3206,7 +3206,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3217,7 +3217,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3228,7 +3228,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3239,7 +3239,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3250,7 +3250,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3261,7 +3261,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3272,7 +3272,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3283,7 +3283,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3294,7 +3294,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3305,7 +3305,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3316,7 +3316,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3327,7 +3327,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3338,7 +3338,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3349,7 +3349,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3360,7 +3360,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3371,7 +3371,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3382,7 +3382,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 33
@@ -3393,7 +3393,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 12
@@ -3404,7 +3404,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3415,7 +3415,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3426,7 +3426,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3437,7 +3437,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3448,7 +3448,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3459,7 +3459,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3470,7 +3470,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3481,7 +3481,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3492,7 +3492,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3503,7 +3503,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3514,7 +3514,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 12
@@ -3525,7 +3525,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 13
@@ -3536,7 +3536,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3547,7 +3547,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3558,7 +3558,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3569,7 +3569,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3580,7 +3580,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3591,7 +3591,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3602,7 +3602,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3613,7 +3613,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3624,7 +3624,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3635,7 +3635,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3646,7 +3646,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3657,7 +3657,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 13
@@ -3668,7 +3668,7 @@ window.liveVacationData = [
     "historyCount": 38,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": true,
     "cityRowspan": 16
@@ -3679,7 +3679,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3690,7 +3690,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3701,7 +3701,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3712,7 +3712,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3723,7 +3723,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3734,7 +3734,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3745,7 +3745,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3756,7 +3756,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3767,7 +3767,7 @@ window.liveVacationData = [
     "historyCount": 31,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3778,7 +3778,7 @@ window.liveVacationData = [
     "historyCount": 32,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3789,7 +3789,7 @@ window.liveVacationData = [
     "historyCount": 37,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3800,7 +3800,7 @@ window.liveVacationData = [
     "historyCount": 36,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3811,7 +3811,7 @@ window.liveVacationData = [
     "historyCount": 35,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3822,7 +3822,7 @@ window.liveVacationData = [
     "historyCount": 34,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
@@ -3833,7 +3833,7 @@ window.liveVacationData = [
     "historyCount": 33,
     "status": "無",
     "note": "-",
-    "daysPassed": "659天",
+    "daysPassed": "660天",
     "lastDate": "2024/10/31",
     "isFirstOfCity": false,
     "cityRowspan": 16
