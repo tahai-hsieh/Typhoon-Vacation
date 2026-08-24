@@ -2731,10 +2731,10 @@ window.liveVacationData = [
     "city": "高雄市",
     "district": "那瑪夏區",
     "historyCount": 32,
-    "status": "無",
+    "status": "停止上班上課",
     "note": "-",
-    "daysPassed": "662天",
-    "lastDate": "2024/10/31",
+    "daysPassed": "0天 (今天)",
+    "lastDate": "2026/08/24",
     "isFirstOfCity": false,
     "cityRowspan": 38
   },
